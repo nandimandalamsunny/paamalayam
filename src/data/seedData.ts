@@ -19926,5 +19926,665 @@ export const SEED_SONGS: Song[] = [
         ]
       }
     ]
+  },
+
+  {
+    id: "song_161",
+    songNumber: "161",
+    noOfStanzas: 6,
+    title: "Munnai Sareera Vaiththiyanaam",
+    tamilTitle: "முன்னே சரீர வைத்தியனாம்",
+    category: "பரி. லூக்கா திருநாள்",
+    composer: "Manchester New",
+    history: "",
+    crossReferences: [],
+    sections: [
+      {
+        id: "s161-v1",
+        type: "verse",
+        label: "Verse 1",
+        tanglish: [
+          "Munnai sareera vaiththiyanaam",
+          "Lookkaavait thaevareer;",
+          "Aanmaavin saa noi theerkkavum",
+          "Karththaavae, azhaiththeer."
+        ],
+        tamil: [
+          "முன்னே சரீர வைத்தியனாம்",
+          "லூக்காவைத் தேவரீர்;",
+          "ஆன்மாவின் சா நோய் தீர்க்கவும்",
+          "கர்த்தாவே, அழைத்தீர்."
+        ]
+      },
+      {
+        id: "s161-v2",
+        type: "verse",
+        label: "Verse 2",
+        tanglish: [
+          "Aanmaavin roagam neekkidum",
+          "Meiyaana vaiththiyarae",
+          "Um vaarththaiyaam marunthinaal",
+          "Nartsugam eeyumae."
+        ],
+        tamil: [
+          "ஆன்மாவின் ரோகம் நீக்கிடும்",
+          "மெய்யான வைத்தியரே",
+          "உம் வார்த்தையாம் மருந்தினால்",
+          "நற்சுகம் ஈயுமே."
+        ]
+      },
+      {
+        id: "s161-v3",
+        type: "verse",
+        label: "Verse 3",
+        tanglish: [
+          "Karththaavae, paavak kushtaththaal",
+          "Saa vaethanaiyutroam;",
+          "Um karaththaal thottarullum,",
+          "Appoathu sugippoam."
+        ],
+        tamil: [
+          "கர்த்தாவே, பாவக் குஷ்டத்தால்",
+          "சா வேதனையுற்றோம்;",
+          "உம் கரத்தால் தொட்டருளும்,",
+          "அப்போது சுகிப்போம்."
+        ]
+      },
+      {
+        id: "s161-v4",
+        type: "verse",
+        label: "Verse 4",
+        tanglish: [
+          "Aanmaakkal thimir vaathaththaal",
+          "Mariththup poayinum,",
+          "Neer valla vaakkaik koorungaal",
+          "Thirumba jeevikkum."
+        ],
+        tamil: [
+          "ஆன்மாக்கள் திமிர் வாதத்தால்",
+          "மரித்துப் போயினும்,",
+          "நீ வல்ல வாக்கைக் கூறுங்கால்",
+          "திரும்ப ஜீவிக்கும்."
+        ]
+      },
+      {
+        id: "s161-v5",
+        type: "verse",
+        label: "Verse 5",
+        tanglish: [
+          "Thur aasai theeya nenjilae",
+          "Theepoalak kaayinum,",
+          "Um saanthach chollaal koashtaththai",
+          "Thaniyach seithidum."
+        ],
+        tamil: [
+          "துர் ஆசை தீய நெஞ்சிலே",
+          "தீப்போலக் காயினும்,",
+          "உம் சாந்தச் சொல்லால் கோஷ்டத்தை",
+          "தணியச் செய்திடும்."
+        ]
+      },
+      {
+        id: "s161-v6",
+        type: "verse",
+        label: "Verse 6",
+        tanglish: [
+          "Eththeengum neekkum yesuvae,",
+          "Natpaatham andinoam;",
+          "Um poorna kadaatchaththaal",
+          "Suththaangam peruvoam."
+        ],
+        tamil: [
+          "எத்தீங்கும் நீக்கும் இயேசுவே,",
+          "நற்பாதம் அண்டினோம்;",
+          "உம் பூர்ண கடாட்சத்தால்",
+          "சுத்தாங்கம் பெறுவோம்."
+        ]
+      }
+    ]
+  },
+  {
+    id: "song_162",
+    songNumber: "162",
+    noOfStanzas: 4,
+    title: "Yesu Swaami, Seemoan Yoothaa",
+    tamilTitle: "இயேசு ஸ்வாமி, சீமோன் யூதா",
+    category: "பரி. சீமோன், பரி. யூதா திருநாள்",
+    composer: "Oriel",
+    history: "Thou who sentest Thine apostles",
+    crossReferences: [],
+    sections: [
+      {
+        id: "s162-v1",
+        type: "verse",
+        label: "Verse 1",
+        tanglish: [
+          "Yesu swaami, seemoan yoothaa",
+          "Ennum um appoasthalar,",
+          "Ondru saernthu umakkaaga",
+          "Uzhaiththa sagotharar,",
+          "Thangal vaelai oayntha poathu",
+          "Vettrik kireedam petranar."
+        ],
+        tamil: [
+          "இயேசு ஸ்வாமி, சீமோன் யூதா",
+          "என்னும் உம் அப்போஸ்தலர்,",
+          "ஒன்று சேர்ந்து உமக்காக",
+          "உழைத்த சகோதரர்,",
+          "தங்கள் வேலை ஓய்ந்த போது",
+          "வெற்றிக் கிரீடம் பெற்றனர்."
+        ]
+      },
+      {
+        id: "s162-v2",
+        type: "verse",
+        label: "Verse 2",
+        tanglish: [
+          "Avargal um arullaalae",
+          "Naesaththoaddum poathiththaar;",
+          "Sabhaiyil murkaalam pala",
+          "Arputhangal kaanbiththaar,",
+          "Maarkkak kaedundaana vaelai",
+          "Echchariththuk kandiththaar."
+        ],
+        tamil: [
+          "அவர்கள் உம் அருளாலே",
+          "நேசத்தோடு போதித்தார்;",
+          "சபையில் முற்காலம் பல",
+          "அற்புதங்கள் காண்பித்தார்,",
+          "மார்க்கக் கேடுண்டான வேளை",
+          "எச்சரித்துக் கண்டித்தார்."
+        ]
+      },
+      {
+        id: "s162-v3",
+        type: "verse",
+        label: "Verse 3",
+        tanglish: [
+          "Seemoan yoothaa poantra unthan",
+          "Bakthar palloarudanum,",
+          "Palinkaazhi munnae naangalum",
+          "Ummaip poatrum alavum,",
+          "Saavukkum anjaamal ummai",
+          "Patri aevi arullum."
+        ],
+        tamil: [
+          "சீமோன் யூதா போன்ற உந்தன்",
+          "பக்தர் பல்லோருடனும்,",
+          "பளிங்காழி முன்னே நாங்கள்",
+          "உம்மைப் போற்றும் அளவும்,",
+          "சாவுக்கும் அஞ்சாமல் உம்மை",
+          "பற்றி ஏவி அருளும்."
+        ]
+      },
+      {
+        id: "s162-v4",
+        type: "verse",
+        label: "Verse 4",
+        tanglish: [
+          "Arputhangal seiyyum valla",
+          "Maa pithaavae, sthoaththiram;",
+          "Neethi saththiyamum niraintha",
+          "Maanthar vaenthae, sthoaththiram;",
+          "Thooya aaviyae, endraikkum",
+          "Umakken gal sthoaththiram."
+        ],
+        tamil: [
+          "அற்புதங்கள் செய்யும் வல்ல",
+          "மா பிதாவே, ஸ்தோத்திரம்;",
+          "நீதி சத்தியமும் நிறைந்த",
+          "மாந்தர் வேந்தே, ஸ்தோத்திரம்;",
+          "தூய ஆவியே, என்றைக்கும்",
+          "உமக்கெங்கள் ஸ்தோத்திரம்."
+        ]
+      }
+    ]
+  },
+  {
+    id: "song_163",
+    songNumber: "163",
+    noOfStanzas: 3,
+    title: "Anantha Kodi Koottathaar",
+    tamilTitle: "அநந்த கோடி கூட்டத்தார்",
+    category: "சகல பரிசுத்தவான்கள் திருநாள்",
+    sections: [
+      {
+        id: "s163-v1",
+        type: "verse",
+        label: "Verse 1",
+        tamil: [
+          "அநந்த கோடி கூட்டத்தார்",
+          "ஆனந்த கீதம் பாடியே,",
+          "பண் இசைப்பார் வெண் உடையார்",
+          "தெய்வாசனம் முன்னே.",
+          "விண்வேந்தர் தயை போக்கிற்றே",
+          "மண் மாந்தர் பாவம் நோவுமே;",
+          "மேலோகிலே நீர் நோக்குவீர்",
+          "உம் நாதர் மாட்சியே.",
+          "பாடற்ற பக்தர் சேனையே,",
+          "கேடோய்ந்து தூதரோடுமே",
+          "பண் மீட்டுவீர்; விண் நாதர்தாம்",
+          "தம் வார்த்தை நல்குவார்."
+        ],
+        tanglish: [
+          "Anantha kodi koottathaar",
+          "Aanantha geetham paadiyae,",
+          "Pan isaippaar ven udaiyaar",
+          "Theivaasanam munnae.",
+          "Vinvaenthar thayai pokkitrae",
+          "Man maanthar paavam novumae;",
+          "Maaloagilae neer nokkuveer",
+          "Um naathar maatchiyae.",
+          "Paadatra bakthar saenaiyae,",
+          "Kaedoainthu thootharoaddumae",
+          "Pan meettuveer; Vin naatharthaam",
+          "Tham vaarththai nalkuvaar."
+        ]
+      },
+      {
+        id: "s163-v2",
+        type: "verse",
+        label: "Verse 2",
+        tamil: [
+          "மா தாழ்வாய் வாழ்ந்தீர் பாரினில்,",
+          "கோதற்ற வெண்மை அணிந்தீர்,",
+          "உம் நீதிக்காய் நம் நாதரே",
+          "பொற் கிரீடம் சூட்டுவார்;",
+          "பூலோக வாழ்வின் கண்ணீரை",
+          "மேலோகில் ஸ்வாமி நீக்கினார்;",
+          "போம் திகிலும்; உம் மீட்பரின்",
+          "நல் மார்பில் சாய்குவீர்.",
+          "மாண் வேந்தரோடு அடைந்தீர்;",
+          "நீர் பெற்றீரே பேர் வாழ்வுமே",
+          "கர்த்தாவோடென்றுமே."
+        ],
+        tanglish: [
+          "Maa thaazhvaay vaazhththeer paarinil,",
+          "Koathatra venmai anintheer,",
+          "Um neethikkaay Nam naatharae",
+          "Por kreedam soottuvaar;",
+          "Pooloaga vaazhvin kanneerai",
+          "Maaloagil swaami neekkinaar;",
+          "Pom thigilum; Um meetparin",
+          "Nal maarbil saaykuveer.",
+          "Maan vaentharoaddum adaintheer;",
+          "Neer petreerae paer vaazhvumae",
+          "Karththaavoaddendrumae."
+        ]
+      },
+      {
+        id: "s163-v3",
+        type: "verse",
+        label: "Verse 3",
+        tamil: [
+          "ஆ, வீரர் சூரர் சேனையே,",
+          "மா தீரச் செய்கை ஆற்றினீர்,",
+          "நீர் சகித்தீர், நீர் ஜெயித்தீர்",
+          "நீர் வாழ்க, பக்தரே!",
+          "மண் மாந்தர் கீர்த்தி இகழ்ந்தீர்,",
+          "விண் வேந்தரோடும் சிலுவை",
+          "நீர் சுமந்தீர், நீர் அறுப்பீர்",
+          "உம் கண்ணீர் பலனே.",
+          "மெய் மணவாட்டி, போற்றுவாய்!",
+          "வையகமே முழங்குவாய்!",
+          "எம் ஸ்வாமியே, என்றென்றுமே",
+          "உம் ஸ்தோத்ரம் ஏறுமே."
+        ],
+        tanglish: [
+          "Aa, veerars soorar saenaiyae,",
+          "Maa theerach seigai aattrineer,",
+          "Neer sagiththeer, neer jeyiththeer",
+          "Neer vaazhga, baktharae!",
+          "Man maanthar keerththi igazhntheer,",
+          "Vin vaentharoaddum siluvai",
+          "Neer sumantheer, neer aruppeer",
+          "Um kanneer balanae.",
+          "Mei manavaatti, poatruvaay!",
+          "Vaiyagamae muzhanguvaay!",
+          "Em swaamiyae, endrendrumae",
+          "Um sthoathram aerumae."
+        ]
+      }
+    ]
+  },
+  {
+    id: "song_164",
+    songNumber: "164",
+    noOfStanzas: 5,
+    title: "Aa Baakkiya Theiva Baktharae",
+    tamilTitle: "ஆ பாக்கிய தெய்வ பக்தரே",
+    category: "",
+    composer: "Rest",
+    history: "The saints of God their conflict past",
+    crossReferences: [],
+    sections: [
+      {
+        id: "s164-v1",
+        type: "verse",
+        label: "Verse 1",
+        tamil: [
+          "ஆ பாக்கிய தெய்வ பக்தரே!",
+          "உம் நீண்ட போர் முடிந்ததே!",
+          "வெற்றி கொண்டே, சர்வாயுதம்",
+          "வைத்து விட்டீர் கர்த்தாவிடம்!",
+          "சீர் பக்தரே, அமர்ந்து நீர்",
+          "இயேசுவின் பாதத்தில் வாழ்வீர்."
+        ],
+        tanglish: [
+          "Aa baakkiya theiva baktharae!",
+          "Um neenda poar mudinthathae!",
+          "Vetri kondaey, sarvaayutham",
+          "Vaiththu vittir karththaavidam!",
+          "Seer baktharae, amarnthu neer",
+          "Yesuvin paathaththil vaazhveer."
+        ]
+      },
+      {
+        id: "s164-v2",
+        type: "verse",
+        label: "Verse 2",
+        tamil: [
+          "ஆ பாக்கிய தெய்வ பக்தரே!",
+          "மா அலுப்பாம் பிரயாணத்தை",
+          "முடித்து, இனி அலைவும்",
+          "சோர்வும் இல்லாமல் வாழ்ந்திடும்",
+          "சீர் பக்தரே, அமர்ந்து நீர்",
+          "நல் வீட்டில் இளைப்பாறுவீர்."
+        ],
+        tanglish: [
+          "Aa baakkiya theiva baktharae!",
+          "Maa aluppaam pirayaanaththai",
+          "Mudiththu, ini alaivum",
+          "Soarvum illaamal vaazhnthidum",
+          "Seer baktharae, amarnthu neer",
+          "Nal veettil ilaippaaruveer."
+        ]
+      },
+      {
+        id: "s164-v3",
+        type: "verse",
+        label: "Verse 3",
+        tamil: [
+          "ஆ பாக்கிய தெய்வ பக்தரே!",
+          "இஜ்ஜீவ யாத்திரை ஒய்ந்ததே;",
+          "இப்போதபாயப் புயலும்",
+          "உம்மைச் சேராது கிஞ்சித்தும்",
+          "சீர் பக்தரே, அமர்ந்து நீர்",
+          "இன்பத் துறையில் தங்குவீர்."
+        ],
+        tanglish: [
+          "Aa baakkiya theiva baktharae!",
+          "Ijjeeva yaathirai ointhathae;",
+          "Ippothabaya puyalum",
+          "Ummaich saeraathu kinjiththum",
+          "Seer baktharae, amarnthu neer",
+          "Inbath thuraiyil thanguveer."
+        ]
+      },
+      {
+        id: "s164-v4",
+        type: "verse",
+        label: "Verse 4",
+        tamil: [
+          "ஆ பாக்கிய தெய்வ பக்தரே!",
+          "உம் மேனி மண்ணில் தூங்கவே,",
+          "மாண்பாய் எழும்புமளவும்",
+          "விழித்துக் காத்துக்கொண்டிரும்;",
+          "சீர் பக்தரே, மகிழ்ந்து நீர்",
+          "நம் ராஜா வருவார் என்பீர்."
+        ],
+        tanglish: [
+          "Aa baakkiya theiva baktharae!",
+          "Um maeni mannil thoongavae,",
+          "Maanbaay ezhumbumalavum",
+          "Vizhiththuk kaaththuk kondirum;",
+          "Seer baktharae, magizhnthu neer",
+          "Nam raajaa varuvaar enbeer."
+        ]
+      },
+      {
+        id: "s164-v5",
+        type: "verse",
+        label: "Verse 5",
+        tamil: [
+          "கேளும் தூயோரின் நாதரே",
+          "பரிந்து பேசும் மீட்பரே,",
+          "வாழ் நாள் எல்லாம் நல்லாவியே,",
+          "கடாட்சம் வைத்து ஆளுமே;",
+          "சீர் பக்தரோடு நாங்களும்",
+          "மேலோகில் சேரச் செய்திடும்."
+        ],
+        tanglish: [
+          "Kaelum thooyorin naatharae",
+          "Parinthu paesaum meetparae,",
+          "Vaazh naal ellaam nallaaviyae,",
+          "Kadaatcham vaiththu aalumae;",
+          "Seer baktharoaddum naangalum",
+          "Maaloagil saera saiththidum."
+        ]
+      }
+    ]
+  },
+  {
+    id: "song_165",
+    songNumber: "165",
+    noOfStanzas: 6,
+    title: "Thooya Veerar Thirunaalai",
+    tamilTitle: "தூய வீரர் திருநாளை",
+    category: "",
+    composer: "Langdale",
+    history: "Blessed feasts of blessed martyrs",
+    crossReferences: [],
+    sections: [
+      {
+        id: "s165-v1",
+        type: "verse",
+        label: "Verse 1",
+        tamil: [
+          "தூய வீரர் திருநாளை",
+          "பக்தி பரவசமாய்",
+          "ஆண்டுதோறும் வந்திப்போமே",
+          "எதிர்நோக்கி ஆவலாய்."
+        ],
+        tanglish: [
+          "Thooya veerar thirunaalai",
+          "Bakthi paravasamaay",
+          "Aanduthoarum vanthippoamae",
+          "Ethirnoakki aavalaay."
+        ]
+      },
+      {
+        id: "s165-v2",
+        type: "verse",
+        label: "Verse 2",
+        tamil: [
+          "வல்ல வீர செயல்கள்",
+          "செய்தார் என்றும் வாழ்த்துவோமே,",
+          "பாடுவோம் தீங்கீதங்கள்.",
+          "விசுவாசம் மா நம்பிக்கை",
+          "ஓங்கி உம்மை நேசித்தார்;",
+          "மாட்சியோடும் வெற்றியோடும்",
+          "தூயர் வீரர் ஆயினார்."
+        ],
+        tanglish: [
+          "Valla veera seiyalkal",
+          "Seithaar endrum vaazhththuvoamae,",
+          "Paaduvom theengeethangal.",
+          "Visuvaasam maa nambikkai",
+          "Oangi ummai naesiththaar;",
+          "Maatchiyoaddum vetriyoaddum",
+          "Thooyar veerar aayinaar."
+        ]
+      },
+      {
+        id: "s165-v3",
+        type: "verse",
+        label: "Verse 3",
+        tamil: [
+          "பாரின் இன்பம் துறந்திட்டே",
+          "வீரர் செய்கை புரிந்தார்",
+          "இப்போ வானில் தூயர் கூட்டம்",
+          "தாமும் ஒன்றாய்ச் சேர்ந்திட்டார்."
+        ],
+        tanglish: [
+          "Paarin inbam thuranthittae",
+          "Veerar seiygai purinthaar",
+          "Ippo vaanil thooyar koottam",
+          "Thaamum ondraaych saernthittaar."
+        ]
+      },
+      {
+        id: "s165-v4",
+        type: "verse",
+        label: "Verse 4",
+        tamil: [
+          "கிறிஸ்துவோடு பாத்தியராகி",
+          "விண்ணின் மாட்சி அடைந்தார்;",
+          "நாம் முன்னேறப் பாதம் வீழ்ந்து",
+          "பணிவாக ஜெபிப்பார்."
+        ],
+        tanglish: [
+          "Kiristhuvoaddum paaththiyaraagi",
+          "Vinnin maatchi adainthaar;",
+          "Naam munnoerap paatham veezhnthu",
+          "Panivaaga jepippaar."
+        ]
+      },
+      {
+        id: "s165-v5",
+        type: "verse",
+        label: "Verse 5",
+        tamil: [
+          "பாரின் கஷ்ட வாழ்க்கை ஈற்றில்",
+          "மாய்க்கும் துன்பம் நீங்கிப் போம்;",
+          "தந்தை வீட்டில் நாமும் சேர்ந்து",
+          "நித்திய மாட்சி கெலிப்போம்."
+        ],
+        tanglish: [
+          "Paarin kashta vaazhkkai eetril",
+          "Maaykkum thunbam neengip poam;",
+          "Thanthai veettil naamum saernthu",
+          "Niththiya maatchi gelippoam."
+        ]
+      }
+    ]
+  },
+  {
+    id: "song_166",
+    songNumber: "166",
+    noOfStanzas: 5,
+    title: "Vaana Joathiyaai Ilangi",
+    tamilTitle: "வான ஜோதியாய் இலங்கி",
+    category: "",
+    composer: "All Saints",
+    history: "Who are these like stars appearing",
+    crossReferences: [],
+    sections: [
+      {
+        id: "s166-v1",
+        type: "verse",
+        label: "Verse 1",
+        tamil: [
+          "வான ஜோதியாய் இலங்கி",
+          "மாண்பாய்ப் பொன்முடி தாங்கி",
+          "தெய்வ ஆசனமுன் நிற்பார்",
+          "மாட்சியாம் இவ்வானோர் யார்?",
+          "அல்லேலூயா! முழங்கும்",
+          "விண்ணின்வேந்தர் துதியும்."
+        ],
+        tanglish: [
+          "Vaana joathiyaai ilangi",
+          "Maanbaayp ponmudi thaangi",
+          "Theiva aasanamun nirppaar",
+          "Maatchiyaam ivvaanoar yaar?",
+          "Allelooyaa! muzhangum",
+          "Vinninvaenthar thuthiyum."
+        ]
+      },
+      {
+        id: "s166-v2",
+        type: "verse",
+        label: "Verse 2",
+        tamil: [
+          "பகலோனின் ஜோதியோடு",
+          "தெய்வ நீதி அணிந்து,",
+          "தூய வெண்மையான அங்கி",
+          "என்றும் தூய்மை விளங்கி,",
+          "தூயோராய்த் தரித்தனர்",
+          "எங்கிருந்து வந்தனர்?"
+        ],
+        tanglish: [
+          "Pagaloanin joathiyoaddum",
+          "Theiva neethi aninthu,",
+          "Thooya venmaiyaana angi",
+          "Endrum thooymai vilangi,",
+          "Thooyooraayth thariththanaar",
+          "Engirunthu vanthanaar?"
+        ]
+      },
+      {
+        id: "s166-v3",
+        type: "verse",
+        label: "Verse 3",
+        tamil: [
+          "ஜீவ காலம் முற்றும் மீட்பர்",
+          "மேன்மைக்காய்ப் போராடினர்;",
+          "லோகத்தாரின் சேர்க்கை நீக்கி",
+          "சாவுமட்டும் போராடி",
+          "போரில் முற்றும் நின்றனர்,",
+          "மீட்பராலே வென்றனர்."
+        ],
+        tanglish: [
+          "Jeeva kaalam mutrum meetpar",
+          "Maenmaikkaayp poaraadinara;",
+          "Loagaththaarin saerkkai neekki",
+          "Saavumattum poaraadi",
+          "Poaril mutrum nintranaar,",
+          "Meetparaalae ventranaar."
+        ]
+      },
+      {
+        id: "s166-v4",
+        type: "verse",
+        label: "Verse 4",
+        tamil: [
+          "வேதனை தம் நெஞ்சைப் பீற",
+          "ஓங்கு துன்பம் சூழ்ந்திட,",
+          "பணிந்து தம் தெய்வம் நோக்கி",
+          "வேண்டலோடு போராடி",
+          "இப்போ போர் முடித்திட்டார்,",
+          "ஸ்வாமி கண்ணீர் நீக்கினார்."
+        ],
+        tanglish: [
+          "Vaethanai tham nenjaip peer",
+          "Oangu thunbam soozhnthida,",
+          "Paninthu tham theivam noakki",
+          "Vaentaloadu poaraadi",
+          "Ippo poar mudiththittaar,",
+          "Swaami kanneer neekkinaar."
+        ]
+      },
+      {
+        id: "s166-v5",
+        type: "verse",
+        label: "Verse 5",
+        tamil: [
+          "சர்வ வல்லோர் சந்நிதியில்",
+          "திவ்விய ஊழியத்தினில்",
+          "நின்று, தேகம் ஆவியோடு",
+          "கட்டளை கீழ்ப்படிந்து",
+          "உன்னதத்தில் சேர்ந்திட்டார்",
+          "என்றும் தெய்வம் நோக்குவார்."
+        ],
+        tanglish: [
+          "Sarva valloar sannithiyil",
+          "Thivviya oozhiyaththinil",
+          "Nindru, thaegam aaviyoaddum",
+          "Kattalai keezhppadinthu",
+          "Unnathaththil saernt hittaar",
+          "Endrum theivam noakkuvaar."
+        ]
+      }
+    ]
   }
 ];
