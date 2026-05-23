@@ -48731,5 +48731,221 @@ export const SEED_SONGS: Song[] = [
         ]
       }
     ]
+  },
+  {
+    id: "song_410",
+    songNumber: "410",
+    title: "Tham Raththaththil Thōyntha",
+    tamilTitle: "தம் ரத்தத்தில் தோய்ந்த",
+    category: "6, 6, 6, 6",
+    sections: [
+      {
+        id: "s410-v1",
+        type: "verse",
+        label: "Verse 1",
+        tamil: ["தம் ரத்தத்தில் தோய்ந்த", "அங்கி போர்த்து,", "மாதர் பின் புலம்ப", "நடந்து;"],
+        tanglish: [
+          "Tham raththaththil thōyntha",
+          "Angi pōrththu,",
+          "Maathar pin pulampa",
+          "Naḍanthu;"
+        ]
+      },
+      {
+        id: "s410-v2",
+        type: "verse",
+        label: "Verse 2",
+        tamil: ["பாரச் சிலுவையால்", "சோர்ந்துமே,", "சுமையாளர் நிற்கின்றார்", "பாதைவே."],
+        tanglish: ["Paarach siluvaiyaal", "Sōrnthumē,", "Sumaiyaalar nitrkindraar", "Paathaevē."]
+      },
+      {
+        id: "s410-v3",
+        type: "verse",
+        label: "Verse 3",
+        tamil: ["கூடியே செல்கின்றார்", "அப்பாதைவே;", "பின்னே தங்கியின்றார்", "சீரோடே."],
+        tanglish: ["Kooḍiyae selkindraar", "Appaathaevē;", "Pinnē thangiyindraar", "Seeroadē."]
+      },
+      {
+        id: "s410-v4",
+        type: "verse",
+        label: "Verse 4",
+        tamil: ["குஞ்சைச் சுவித்தெங்கே", "செல்லுகின்றார்?", "முன் தங்கிச் சுமக்கும்", "அவர் யார்?"],
+        tanglish: ["Kunjais suviththengē", "Sellugindraar?", "Mun thangich sumakkum", "Avar yaar?"]
+      },
+      {
+        id: "s410-v5",
+        type: "verse",
+        label: "Verse 5",
+        tamil: ["அவர் பின் செல்லுங்கள்", "கல்வாரிங்கே,", "அவர் பாடுபடும்", "மகிழ்ந்தே."],
+        tanglish: ["Avar pin sellungal", "Kalvaaringē,", "Avar paadupaḍum", "Magizhnthē."]
+      },
+      {
+        id: "s410-v6",
+        type: "verse",
+        label: "Verse 6",
+        tamil: ["அவரின் தேசரே,", "நின்று, சற்றே", "அவ்விய பதம் உற்று", "பாருமே."],
+        tanglish: ["Avarin thaesarae,", "Nindru, satrē", "Avviya patham utru", "Paarumē."]
+      },
+      {
+        id: "s410-v7",
+        type: "verse",
+        label: "Verse 7",
+        tamil: ["அவனைச் சிலுவை", "சுமக்கக் கொடுத்தீர்!", "பேரிமை அதனால்", "அளிநீர்"],
+        tanglish: ["Avanai-ch siluvai", "Sumakkak koduththeer!", "Paerimai athanaal", "Alineer"]
+      },
+      {
+        id: "s410-v8",
+        type: "verse",
+        label: "Verse 8",
+        tamil: ["பாதையில் செல்கின்றே,", "முன் தங்கி", "புக்கதில் கண்டீரோ", "சொந்தமாய்?"],
+        tanglish: ["Paathaiyil selkindrē,", "Mun thangi", "Pukkathil kandiroo", "Sonthamaay?"]
+      },
+      {
+        id: "s410-v9",
+        type: "verse",
+        label: "Verse 9",
+        tamil: ["குஞ்சில் அமர்ந்தோ", "மலைகளிலு", "உம்மைச் சேர்த்திக்கின்றேன்-", "என்றினையு."],
+        tanglish: ["Kunjil amarnthō", "Malaigalilu", "Ummaich saerththikkindraen-", "Endrinaiyu."]
+      },
+      {
+        id: "s410-v10",
+        type: "verse",
+        label: "Verse 10",
+        tamil: [
+          "ஈர் முன் உம் அடியில்",
+          "குந்தியிருப்போம்;",
+          "அந்நாளில் என்றென்றும்",
+          "உம் ரத்தம்."
+        ],
+        tanglish: ["Eer mun um aḍiyil", "Kunthiyiruppōm;", "Annaalil endrendrum", "Um raththam."]
+      },
+      {
+        id: "s410-v11",
+        type: "verse",
+        label: "Verse 11",
+        tamil: ["உம் சுமை சுமக்கவே", "தங்கி இவ்வமை;", "கண்டியில் ஆவியை", "உம் ரத்தத்தை."],
+        tanglish: [
+          "Um sumai sumakkavae",
+          "Thangi ivvamai;",
+          "Kandi-yil aaviyai",
+          "Um raththaththai."
+        ]
+      },
+      {
+        id: "s410-v12",
+        type: "verse",
+        label: "Verse 12",
+        tamil: ["ஆகள் மெத, கல் லடிய", "பக்கம் பார்க்கும்,", "ஒக்கினைக்கல்லோ", "என்றும்."],
+        tanglish: ["Aagal metha, kal laḍiya", "Pakkam paarkkum,", "Okkinaikkallō", "Endrum."]
+      },
+      {
+        id: "s410-v13",
+        type: "verse",
+        label: "Verse 13",
+        tamil: ["பட்டும்பகள் இந்தே", "நாமருளினோமே;", "ஞாபகில் நிற்கின்றார்", "உம்மையே."],
+        tanglish: ["Pattumpagal inthē", "Naamaruḷinōmē;", "Gnaapahil nitrkindraar", "Ummaiyae."]
+      },
+      {
+        id: "s410-v14",
+        type: "verse",
+        label: "Verse 14",
+        tamil: ["ஆ, பெரும் ஓதமே!", "கோடி சேர்வில்", "உம் அன்பு சிருக்கி", "பாற்பினிலே"],
+        tanglish: ["Aa, perum ōthamaē!", "Kōḍi saervil", "Um anpu sirukki", "Paarppinilae"]
+      },
+      {
+        id: "s410-v15",
+        type: "verse",
+        label: "Verse 15",
+        tamil: ["சாகும் கர்த்தர் உம்முட", "நிற்கவும்,", "சகிக்கின்றீர் நீர்", "என்றென்றிலும்?"],
+        tanglish: ["Saagum Karththar ummuda", "Nit-rkavum,", "Sahikkindreer neer", "Endrendrilum?"]
+      },
+      {
+        id: "s410-v16",
+        type: "verse",
+        label: "Verse 16",
+        tamil: ["ஞாபகில் கனியாய்", "உம் அருள்நின்றி", "முன்னொன்றிய அழுது", "நிற்கின்றார்."],
+        tanglish: ["Gnaapahil kaniyaay", "Um aruḷnindri", "Munnondriya azhuthu", "Nit-rkindraar."]
+      },
+      {
+        id: "s410-v17",
+        type: "verse",
+        label: "Verse 17",
+        tamil: ["“இயேசு என்நேசரர்", "யாதென்றோ”", "என்றாலும் ஒளியில் உம்", "பட்டலோ?"],
+        tanglish: ["“Yesu ennaesarar", "Yaathendrō”", "Endraalum oḷiyil um", "Pattalō?"]
+      },
+      {
+        id: "s410-v18",
+        type: "verse",
+        label: "Verse 18",
+        tamil: ["பாரென் பொருட்டு", "மாறவும் நீர்", "என்றெனில் எந்தன்மையை", "கண்டுகின்றீர்?"],
+        tanglish: ["Paaren poruttu", "Maaravum neer", "Endrenil enthanmaiyai", "Kandugindreer?"]
+      },
+      {
+        id: "s410-v19",
+        type: "verse",
+        label: "Verse 19",
+        tamil: [
+          "நோவில் பெற்றேன், சேயே;",
+          "அன்பில் காத்தேன்;",
+          "நீ விண்ணில் சேரவே",
+          "நான் வந்தேன்."
+        ],
+        tanglish: [
+          "Nōvil petraen, saeyaē;",
+          "Anpil kaaththaen;",
+          "Nee vinnil saeravae",
+          "Naan vanthaen."
+        ]
+      },
+      {
+        id: "s410-v20",
+        type: "verse",
+        label: "Verse 20",
+        tamil: ["தூரமாய் அலையும்", "உன்னைக் கண்டேன்;", "என்னண்டை கிட்டிவா,", "அணைப்பேன்."],
+        tanglish: ["Thooramaay alaiyum", "Unnaik kandēn;", "Ennaṇdai kittivaa,", "Aṇaippaen."]
+      },
+      {
+        id: "s410-v21",
+        type: "verse",
+        label: "Verse 21",
+        tamil: ["என் ரத்தம் சிந்தினேன்", "உன் பொருட்டாய்;", "உன்னைக் கொள்ள வந்தேன்", "சொந்தமாய்"],
+        tanglish: ["En raththam sinthinēn", "Un poruṭṭaay;", "Unnaik kolla vanthaen", "Sonthamaay"]
+      },
+      {
+        id: "s410-v22",
+        type: "verse",
+        label: "Verse 22",
+        tamil: ["எனக்காய் அழாதே,", "அன்பின் சேயே,", "போராடு, மோட்சத்தில்", "சேரவே."],
+        tanglish: ["Enakkaay azhaathē,", "Anpin saeyaē,", "Pōraadu, mōtchaththil", "Saeravaē."]
+      },
+      {
+        id: "s410-v23",
+        type: "verse",
+        label: "Verse 23",
+        tamil: ["நான் துன்ப இருளில்,", "விண் ஜோதியே,", "சா மட்டுடும் உம் பின்னே", "செல்வேனே,"],
+        tanglish: ["Naan thunpa iruḷil,", "Vinn jōthiyē,", "Saa mattuḍum um pinnē", "Selvaenē,"]
+      },
+      {
+        id: "s410-v24",
+        type: "verse",
+        label: "Verse 24",
+        tamil: ["எப்பாரமாயினும்", "உம் சிலுவை,", "நீர் தாங்கின் சுமப்பேன்", "உம்மோடே."],
+        tanglish: ["Eppaaramaayinum", "Um siluvai,", "Neer thaangin sumappaen", "Ummoaḍē."]
+      },
+      {
+        id: "s410-v25",
+        type: "verse",
+        label: "Verse 25",
+        tamil: ["நிந்தனைக்கும் ஆளாகி", "கொண்டிலோ, வேறே", "வழி உன்னுள் சேரச்", "ஆவரோ?"],
+        tanglish: ["Ninthanaikkum aalaagi", "Kondilō, vaerae", "Vazhi unnul saerach", "Aavarō?"]
+      },
+      {
+        id: "s410-v26",
+        type: "verse",
+        label: "Verse 26",
+        tamil: ["இம்மையினில் உம்மோட", "நின்று விசுவாசு,", "மறுமையில் விண்", "அடைவோம்."],
+        tanglish: ["Immaiyinil ummoaḍa", "Nindru visuvaasu,", "Maṟumaiyil vinn", "Aḍaivōm."]
+      }
+    ]
   }
 ];
