@@ -17134,8 +17134,8 @@ export const SEED_SONGS: Song[] = [
     title: "Vaanjappaetta Yesuvae",
     tamilTitle: "வாஞ்சைப்பட்ட இயேசுவே",
     category: "",
-    composer: "Ascension. St. Albinus",
-    history: "Hail the day that sees Him rise",
+    composer: "",
+    history: "",
     crossReferences: [],
     sections: [
       {
@@ -17144,17 +17144,15 @@ export const SEED_SONGS: Song[] = [
         label: "Verse 1",
         tanglish: [
           "Vaanjappaetta yesuvae, allelooyaa!",
-          "Inthap poothalaththilae allelooyaa!",
+          "Iththaip poothalaththilae allelooyaa!",
           "Konja naalthaan thangineer; allelooyaa!",
-          "Pinbu moatcham aegineer, allelooyaa!",
-          "Vaana aasanaththilae allelooyaa!"
+          "Pinbu moatcham aegineer, allelooyaa!"
         ],
         tamil: [
           "வாஞ்சைப்பட்ட இயேசுவே, அல்லேலூயா!",
           "இந்தப் பூதலத்திலே அல்லேலூயா!",
           "கொஞ்ச நாள்தான் தங்கினீர்; அல்லேலூயா!",
-          "பின்பு மோட்சம் ஏகினீர், அல்லேலூயா!",
-          "வான ஆசனத்திலே அல்லேலூயா!"
+          "பின்பு மோட்சம் ஏகினீர், அல்லேலூயா!"
         ],
         english: [],
         chords: []
@@ -17164,16 +17162,16 @@ export const SEED_SONGS: Song[] = [
         type: "verse",
         label: "Verse 2",
         tanglish: [
+          "Vaana aasanalaththilae allelooyaa!",
           "Veetrirunthu niththamae allelooyaa!",
           "Thuthi perum thaevareer allelooyaa!",
-          "Pooloagaththai maraveer, allelooyaa!",
-          "Thirukkaram kuviththu, allelooyaa!"
+          "Pooloagaththai maraveer, allelooyaa!"
         ],
         tamil: [
+          "வான ஆசனத்திலே அல்லேலூயா!",
           "வீற்றிருந்து நித்தமே அல்லேலூயா!",
           "துதி பெறும் தேவரீர் அல்லேலூயா!",
-          "பூதலத்தை மறவீர், அல்லேலூயா!",
-          "திருக்கரம் குவித்து, அல்லேலூயா!"
+          "பூதலத்தை மறவீர், அல்லேலூயா!"
         ],
         english: [],
         chords: []
@@ -17185,7 +17183,7 @@ export const SEED_SONGS: Song[] = [
         tanglish: [
           "Thirukkaayam kaanbiththu, allelooyaa!",
           "Thiruvaai malarnthu neer allelooyaa!",
-          "Maantharkkaay mandraaduveer, allulooyaa!",
+          "Maantharkaay mandraaduveer, allulooyaa!",
           "Mannai vittup pirinthum, allelooyaa!"
         ],
         tamil: [
@@ -17204,11 +17202,13 @@ export const SEED_SONGS: Song[] = [
         tanglish: [
           "Vaana loagam poayinum, allelooyaa!",
           "Engal jebam kaeluumae, allelooyaa!",
+          "Engal nenjil thangumae allelooyaa!",
           "Engal nenjil thangumae allelooyaa!"
         ],
         tamil: [
           "வான லோகம் போயினும், அல்லேலூயா!",
           "எங்கள் ஜெபம் கேளுமே, அல்லேலூயா!",
+          "எங்கள் நெஞ்சில் தங்குமே அல்லேலூயா!",
           "எங்கள் நெஞ்சில் தங்குமே அல்லேலூயா!"
         ],
         english: [],
@@ -17525,8 +17525,8 @@ export const SEED_SONGS: Song[] = [
     title: "Theivaavi, Manavaasarai",
     tamilTitle: "தெய்வாவி, மனவாசராய்",
     category: "",
-    composer: "SS 187",
-    history: "Spirit Divine attend our prayers",
+    composer: "",
+    history: "",
     crossReferences: [],
     sections: [
       {
@@ -17556,17 +17556,28 @@ export const SEED_SONGS: Song[] = [
           "Neer sothipoal piragaasiththu,",
           "Nirppanthas sthithiyum",
           "En kaedum kaatti, jeevanaam",
-          "Meip paathai kaanbiyum.",
+          "Meip paathai kaanbiyum."
+        ],
+        tamil: [
+          "நீர் சோதிபோல் பிரகாசித்து,",
+          "நிர்ப்பந்த ஸ்திதியும்",
+          "என் கேடும் காட்டி, ஜீவனாம்",
+          "மெய்ப் பாதை காண்பியும்."
+        ],
+        english: [],
+        chords: []
+      },
+      {
+        id: "s139-v3",
+        type: "verse",
+        label: "Verse 3",
+        tanglish: [
           "Neer vaana akni poalavae",
           "Thur aasai sinthaiyum",
           "Theek kunamum suttaerippeer",
           "Pollaatha seigaiyum."
         ],
         tamil: [
-          "நீர் சோதிபோல் பிரகாசித்து,",
-          "நிர்ப்பந்த ஸ்திதியும்",
-          "என் கேடும் காட்டி, ஜீவனாம்",
-          "மெய்ப் பாதை காண்பியும்.",
           "நீர் வான அக்னி போலவே",
           "துர் ஆசை சிந்தையும்",
           "தீக் குணமும் சுட்டெரிப்பீர்",
@@ -17576,9 +17587,9 @@ export const SEED_SONGS: Song[] = [
         chords: []
       },
       {
-        id: "s139-v3",
+        id: "s139-v4",
         type: "verse",
-        label: "Verse 3",
+        label: "Verse 4",
         tanglish: [
           "Natpanipoalum irangum",
           "Ivvaetra naeraththil;",
@@ -17595,9 +17606,9 @@ export const SEED_SONGS: Song[] = [
         chords: []
       },
       {
-        id: "s139-v4",
+        id: "s139-v5",
         type: "verse",
-        label: "Verse 4",
+        label: "Verse 5",
         tanglish: [
           "Puraavaippoala saanthamaay",
           "Neersettai virippeer;",
@@ -17614,9 +17625,9 @@ export const SEED_SONGS: Song[] = [
         chords: []
       },
       {
-        id: "s139-v5",
+        id: "s139-v6",
         type: "verse",
-        label: "Verse 5",
+        label: "Verse 6",
         tanglish: [
           "Neer perum kaatraip poalavum",
           "Vantha saiththarulum;",
