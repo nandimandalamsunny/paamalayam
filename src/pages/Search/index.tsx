@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useAppState } from "../../store/AppState";
 import { Card, CardHeader, CardTitle, CardDescription } from "../../components/ui/Card/index";
-import { Search as SearchIcon, X, Globe, Clock, Star, Mic, ChevronRight } from "lucide-react";
+import { Search as SearchIcon, X, Globe, Clock, Mic, ChevronRight } from "lucide-react";
 import "./Search.css";
 
 interface CustomIconProps extends React.SVGProps<SVGSVGElement> {
@@ -157,17 +157,6 @@ export const Search: React.FC = () => {
     "Visuvasippom Naam"
   ];
 
-  // Popular Suggestions songs list matching the screenshot
-  const popularSuggestions = [
-    { title: "Visuvasippom Naam", songId: "song-12" },
-    { title: "Yesu Unnai Naesikkirar", songId: "song-03" },
-    { title: "Evening Reflection", songId: "song-04" },
-    { title: "Ennal Maravadha Naam", songId: "song-04" }, // fallback
-    { title: "Aathmamae, Un Aandavarin", songId: "song_001" },
-    { title: "Aarathanai Umakke", songId: "song-05" },
-    { title: "Yesu Unnai Aaraathikkiren", songId: "song-03" }, // fallback
-    { title: "Aathmamae, Un Aandavarin", songId: "song_001" } // fallback
-  ];
 
   // Categories with matching song counts
   const categoriesList = [
@@ -188,32 +177,69 @@ export const Search: React.FC = () => {
     "My Devotional Reading"
   ];
 
-  // Full-text instant filtering
-  const filteredSongs = songs.filter((song) => {
-    // 1. Filter by category first if one is selected
-    if (selectedCategory && selectedCategory !== "All" && song.category !== selectedCategory) {
-      return false;
-    }
+  // Full-text instant filtering and smart prioritization sorting
+  const filteredSongs = songs
+    .filter((song) => {
+      // 1. Filter by category first if one is selected
+      if (selectedCategory && selectedCategory !== "All" && song.category !== selectedCategory) {
+        return false;
+      }
 
-    // 2. Perform text lookup
-    if (!query) return true;
-    const lowerQuery = query.toLowerCase().trim();
+      // 2. Perform text lookup
+      if (!query) return true;
+      const lowerQuery = query.toLowerCase().trim();
 
-    const titleMatch = song.title.toLowerCase().includes(lowerQuery);
-    const tamilTitleMatch = song.tamilTitle.toLowerCase().includes(lowerQuery);
-    const numberMatch = song.songNumber.includes(lowerQuery);
-    const composerMatch = song.composer?.toLowerCase().includes(lowerQuery) || false;
+      const isNumeric = /^\d+$/.test(lowerQuery);
+      if (isNumeric) {
+        return parseInt(song.songNumber, 10) === parseInt(lowerQuery, 10);
+      }
 
-    // Deep search in individual lines of lyrics across three translations
-    const lyricsMatch = song.sections.some(
-      (sec) =>
-        sec.tanglish.some((line) => line.toLowerCase().includes(lowerQuery)) ||
-        sec.tamil.some((line) => line.toLowerCase().includes(lowerQuery)) ||
-        (sec.english && sec.english.some((line) => line.toLowerCase().includes(lowerQuery)))
-    );
+      const titleMatch = song.title.toLowerCase().includes(lowerQuery);
+      const tamilTitleMatch = song.tamilTitle.toLowerCase().includes(lowerQuery);
+      const numberMatch = song.songNumber.includes(lowerQuery);
+      const composerMatch = song.composer?.toLowerCase().includes(lowerQuery) || false;
 
-    return titleMatch || tamilTitleMatch || numberMatch || composerMatch || lyricsMatch;
-  });
+      // Deep search in individual lines of lyrics across three translations
+      const lyricsMatch = song.sections.some(
+        (sec) =>
+          sec.tanglish.some((line) => line.toLowerCase().includes(lowerQuery)) ||
+          sec.tamil.some((line) => line.toLowerCase().includes(lowerQuery)) ||
+          (sec.english && sec.english.some((line) => line.toLowerCase().includes(lowerQuery)))
+      );
+
+      return titleMatch || tamilTitleMatch || numberMatch || composerMatch || lyricsMatch;
+    })
+    .sort((a, b) => {
+      if (!query) return 0;
+      const q = query.toLowerCase().trim();
+
+      // Exact song number match has highest priority
+      const aExactNum = a.songNumber === q;
+      const bExactNum = b.songNumber === q;
+      if (aExactNum && !bExactNum) return -1;
+      if (!aExactNum && bExactNum) return 1;
+
+      // Song number starts with query (e.g., query "34" matches "340" before "134")
+      const aStartsNum = a.songNumber.startsWith(q);
+      const bStartsNum = b.songNumber.startsWith(q);
+      if (aStartsNum && !bStartsNum) return -1;
+      if (!aStartsNum && bStartsNum) return 1;
+
+      // Exact title match (case insensitive)
+      const aExactTitle = a.title.toLowerCase() === q;
+      const bExactTitle = b.title.toLowerCase() === q;
+      if (aExactTitle && !bExactTitle) return -1;
+      if (!aExactTitle && bExactTitle) return 1;
+
+      // Title starts with query
+      const aStartsTitle = a.title.toLowerCase().startsWith(q) || a.tamilTitle.startsWith(q);
+      const bStartsTitle = b.title.toLowerCase().startsWith(q) || b.tamilTitle.startsWith(q);
+      if (aStartsTitle && !bStartsTitle) return -1;
+      if (!aStartsTitle && bStartsTitle) return 1;
+
+      // Default sorting: numerical by song number
+      return parseInt(a.songNumber, 10) - parseInt(b.songNumber, 10);
+    });
 
   return (
     <div className="flex flex-col gap-2  md:px-0 select-none animate-fadeIn pb-24">
@@ -274,43 +300,6 @@ export const Search: React.FC = () => {
             </div>
           </div>
 
-          {/* B. Popular Suggestions Large Rounded Card Container */}
-          <div className="flex flex-col gap-3 px-0.5">
-            <div className="flex items-center justify-between">
-              <span className="text-[12.5px] font-bold text-app-primary font-serif">
-                Popular Suggestions
-              </span>
-              <button
-                onClick={() => setQuery("Aathmamae, Un Aandavarin")}
-                className="flex items-center text-[11px] font-bold text-[#A97449] hover:text-[#5B3A29] transition-colors"
-              >
-                View all
-                <ChevronRight size={11} strokeWidth={2.5} className="ml-0.5" />
-              </button>
-            </div>
-
-            <div className="suggestions-card-container">
-              {popularSuggestions.map((item, idx) => (
-                <div key={idx} onClick={() => setQuery(item.title)} className="suggestion-list-row">
-                  <div className="flex items-center">
-                    <div className="suggestion-icon-circle">
-                      <SearchIcon size={14} strokeWidth={2.0} />
-                    </div>
-                    <span className="suggestion-row-text">{item.title}</span>
-                  </div>
-                  <button
-                    onClick={(e) => {
-                      e.stopPropagation();
-                      openSong(item.songId);
-                    }}
-                    className="suggestion-star-btn"
-                  >
-                    <Star size={17} strokeWidth={1.6} />
-                  </button>
-                </div>
-              ))}
-            </div>
-          </div>
 
           {/* C. Browse Categories Small Horizontal Cards */}
           <div className="flex flex-col gap-3 px-0.5">

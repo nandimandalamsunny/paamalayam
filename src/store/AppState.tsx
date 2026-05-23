@@ -50,7 +50,7 @@ const parseRoute = (): { tab: 'home' | 'search' | 'playlists' | 'favorites' | 'm
 
 export const AppStateProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   // Sync core collections with local storage
-  const [songs] = useLocalStorage<Song[]>('PAAMALAI_SONGS', SEED_SONGS);
+  const songs = SEED_SONGS;
   const [settings, setSettings] = useLocalStorage<AppSettings>('PAAMALAI_SETTINGS', DEFAULT_SETTINGS);
   const [favorites, setFavorites] = useLocalStorage<string[]>('PAAMALAI_FAVORITES', []);
   const [notes, setNotes] = useLocalStorage<Record<string, string>>('PAAMALAI_NOTES', {});
