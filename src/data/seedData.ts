@@ -22377,5 +22377,1849 @@ export const SEED_SONGS: Song[] = [
         ]
       }
     ]
-  }
+  },
+  {
+    id: "song_183",
+    songNumber: "183",
+    noOfStanzas: 5,
+    title: "Eppothum, Yesu Naatha",
+    tamilTitle: "எப்போதும், இயேசு நாதா",
+    category: "",
+    sections: [
+      {
+        id: "s183-v1",
+        type: "verse",
+        label: "Verse 1",
+        tamil: [
+          "எப்போதும், இயேசு நாதா,",
+          "உம்மைப் பின்பற்றுவேன்",
+          "என்றே தீர்மானமாக",
+          "நான் வாக்குக் கொடுத்தேன்;",
+          "நீர் என்னைத் தாங்கிக் காப்பீர்,",
+          "அப்போது அஞ்சிடேன்,",
+          "முன்சென்று பாதை காட்டும்,",
+          "நான் வழி தவறேன்."
+        ],
+        tanglish: [
+          "Eppothum, Yesu naatha,",
+          "Ummaip pinpatruvaen",
+          "Endrae theermaanamaaga",
+          "Naan vaakkuk koduththaen;",
+          "Neer ennaith thaangik kaappeer,",
+          "Appoathu anjidaen,",
+          "Munsendru paathai kaattum,",
+          "Naan vazhi thavaraen."
+        ]
+      },
+      {
+        id: "s183-v2",
+        type: "verse",
+        label: "Verse 2",
+        tamil: [
+          "பூலோக இன்பம் செல்வம்",
+          "வீண் ஆசாபாசத்தால்,",
+          "என் ஆத்துமா, மயங்காமல்",
+          "தெய்வீக பலத்தால்",
+          "நீர் துணை நின்று தாங்கும்,",
+          "என் அருள் நாயகா!",
+          "தீங்கணுகாமல் காரும்,",
+          "மா வல்ல ரட்சகா."
+        ],
+        tanglish: [
+          "Puloaga inbam selvam",
+          "Veen aasaapaasaththaal,",
+          "En aaththumaa, mayangaamal",
+          "Theiveega balaththaal",
+          "Neer thunai nindru thaangum,",
+          "En arul naayaka!",
+          "Theenganugaamal kaarum,",
+          "Maa valla ratchagaa."
+        ]
+      },
+      {
+        id: "s183-v3",
+        type: "verse",
+        label: "Verse 3",
+        tamil: [
+          "ஆங்காரம் சுய சித்தம்",
+          "தகாத சிந்தையால்",
+          "மா கலக்கம் உண்டாகி",
+          "நான் தடுமாறினால்,",
+          "நீர் பேசும், அருள் நாதா,",
+          "கொந்தளிப்படங்கும்;",
+          "உம் நேச சத்தம் கேட்டு",
+          "என் ஆவி மகிழும்."
+        ],
+        tanglish: [
+          "Aangaaram suya siththam",
+          "Thagaatha sinthaiyaal",
+          "Maa kalakkam undaagi",
+          "Naan thadumaarinaal,",
+          "Neer paesum, arul naatha,",
+          "Konthalippadangum;",
+          "Um naesa saththam kaettu",
+          "En aavi magizhum."
+        ]
+      },
+      {
+        id: "s183-v4",
+        type: "verse",
+        label: "Verse 4",
+        tamil: [
+          "'பின்பற்றினால் விண் வீட்டில்",
+          "பேரின்பம் பெறுவீர்.'",
+          "என்றே உம் சீஷர் நோக்கி",
+          "நீர் வாக்கு அளிப்பீர்;",
+          "அவ்வருள் வாக்கை நம்பி",
+          "இவ்வேழை அடியேன்,",
+          "'இதோ பின்செல்வேன்,' என்று",
+          "பிரதிக்கினை பண்ணினேன்."
+        ],
+        tanglish: [
+          "'Pinpatrinaal vin veettil",
+          "Paerinbam peruveer.'",
+          "Endrae um seeshar noakki",
+          "Neer vaakku alippeer;",
+          "Avvarul vaakkai nambi",
+          "Ivvaezhai adiyaen,",
+          "'Itho pinselvaen,' endru",
+          "Prathikkinaip panninaen."
+        ]
+      },
+      {
+        id: "s183-v5",
+        type: "verse",
+        label: "Verse 5",
+        tamil: [
+          "ஓயாமல் பெலன் தாரும்;",
+          "உம்மடிச்சுவட்டில்",
+          "கால் வைத்து நடந்தேகி",
+          "நான் யாத்திரை செய்கையில்",
+          "நீர் வழி காட்டி என்னை",
+          "கைதாங்கி வருவீர்;",
+          "அப்பாலே மோட்ச வீட்டில்",
+          "பேர் வாழ்வை அருள்வீர்."
+        ],
+        tanglish: [
+          "Oyaamal belan thaarum;",
+          "Ummadichuvattil",
+          "Kaal vaiththu nadanthaegi",
+          "Naan yaathirai seigaiyil",
+          "Neer vazhi kaatti ennai",
+          "Kaithaangik varuveer;",
+          "Appaalae moatcha veettil",
+          "Paer vaazhvaai arulveer."
+        ]
+      }
+    ]
+  },
+  {
+    id: "song_184",
+    songNumber: "184",
+    noOfStanzas: 4,
+    title: "Aa Yesuvae, Ummaalae",
+    tamilTitle: "ஆ இயேசுவே, உம்மாலே",
+    category: "",
+    sections: [
+      {
+        id: "s184-v1",
+        type: "verse",
+        label: "Verse 1",
+        tamil: [
+          "ஆ இயேசுவே, உம்மாலே",
+          "நான் மீட்கப்பட்டவன்,",
+          "உம் திவ்விய ரத்தத்தாலே",
+          "நான் சுத்தமானவன்;",
+          "மிகுந்த கஸ்தியாலே",
+          "என் தோஷத்தைத் தீர்த்தீர்;",
+          "உமது சாவினாலே",
+          "நீர் என்னை இரட்சித்தீர்."
+        ],
+        tanglish: [
+          "Aa yesuvae, ummaalae",
+          "Naan meetkappattavan,",
+          "Um thivviya raththaththaalae",
+          "Naan suththamaanavane;",
+          "Miguntha kasthiyaalae",
+          "En thoashaththaith theerttheer;",
+          "Umathu saavinaalae",
+          "Neer ennai iratchiththeer."
+        ]
+      },
+      {
+        id: "s184-v2",
+        type: "verse",
+        label: "Verse 2",
+        tamil: [
+          "நான் உம்மால் என்றும் வாழ,",
+          "இப்பந்தியில் நீரே",
+          "என் ஆவிக்கேற்றதான",
+          "அமிர்தம் தந்தீரே,",
+          "உம் ஆசீர்வாதம் ஈந்து,",
+          "என் பாவம் மன்னியும்;",
+          "அன்போடு என்னைச் சேர்த்து,",
+          "தயாளம் காண்பியும்."
+        ],
+        tanglish: [
+          "Naan ummaal endrum vaazha,",
+          "Ippanthiyil neerae",
+          "En aavikkaettrathaana",
+          "Amirtham thanthiree,",
+          "Um aaseervaatham eenthu,",
+          "En paavam manniyum;",
+          "Anboadu ennaich saerththu,",
+          "Thayaalam kaanbiyum."
+        ]
+      },
+      {
+        id: "s184-v3",
+        type: "verse",
+        label: "Verse 3",
+        tamil: [
+          "நீர் இன்னும் என்னில் காணும்",
+          "பொல்லாங்கு யாவையும்",
+          "அகற்றிப்போட வாரும்,",
+          "என் நெஞ்சில் தங்கிடும்;",
+          "நான் உம்மைப் பற்றிக்கொள்ள",
+          "கருணை புரியும்;",
+          "மிகுந்த தாழ்மையுள்ள",
+          "சித்தம் கடாக்ஷியும்."
+        ],
+        tanglish: [
+          "Neer innum ennil kaanum",
+          "Pollaangu yaavaiyum",
+          "Agatrippoada vaarum,",
+          "En nenjil thangidum;",
+          "Naan ummaip patrikkolla",
+          "Karunai puriyum;",
+          "Miguntha thaazhmaiyulla",
+          "Siththam kadaakshiyum."
+        ]
+      },
+      {
+        id: "s184-v4",
+        type: "verse",
+        label: "Verse 4",
+        tamil: [
+          "நல் மீட்பரே, உம்மோடு",
+          "நான் ஐக்கியமாகவும்,",
+          "நாடோறும் வாஞ்சையோடு",
+          "உம்மில் நிலைக்கவும்,",
+          "மிகுந்த அன்பினாலே",
+          "துணை செய்தருளும்;",
+          "தெய்வீக அப்பத்தாலே",
+          "நீர் என்னைப் போஷியும்."
+        ],
+        tanglish: [
+          "Nal meetparae, ummoadu",
+          "Naan aikkiyamaagavum,",
+          "Naadoarum vaanjaiyaodu",
+          "Ummil nilaikkavum,",
+          "Miguntha anbinaalae",
+          "Thunai seitharulalum;",
+          "Theiveega appaththaalae",
+          "Neer ennaip poashiyum."
+        ]
+      }
+    ]
+  },
+  {
+    id: "song_185",
+    songNumber: "185",
+    noOfStanzas: 3,
+    title: "Aa, Eththanai Nanraaga",
+    tamilTitle: "ஆ, எத்தனை நன்றாக",
+    category: "",
+    sections: [
+      {
+        id: "s185-v1",
+        type: "verse",
+        label: "Verse 1",
+        tamil: [
+          "ஆ, எத்தனை நன்றாக",
+          "நீர் தேற்றினீர், என் இயேசுவே",
+          "நீர் உம்மைத்தான் ஊணாக",
+          "இப்போதெனக்குத் தந்தீரே;",
+          "இத்தால் அடியேனுக்கு",
+          "நீர் செய்த கிருபை",
+          "நீர் என்னை மீட்டதற்கு",
+          "எனக்கு முத்திரை;",
+          "மகா அருமையான",
+          "இவ்வன்பு யாவுக்கும்",
+          "உமக்கந்தமான",
+          "துதி உண்டாகவும்."
+        ],
+        tanglish: [
+          "Aa, eththanai nanraaga",
+          "Neer thaettrineer, en yesuvae",
+          "Neer ummaiththaan oonaaga",
+          "Ippoothenakkuth thantheerae;",
+          "Ithaal adiyaenukku",
+          "Neer seitha kirubai",
+          "Neer ennai meettatharkku",
+          "Enakku muththirai;",
+          "Mahaa arumaiyaana",
+          "Ivv anbu yaavukkum",
+          "Umakkanthamaana",
+          "Thuthi undaagavum."
+        ]
+      },
+      {
+        id: "s185-v2",
+        type: "verse",
+        label: "Verse 2",
+        tamil: [
+          "இத்தயவை நினைத்து",
+          "நான் என்றும் உமக்கன்பு",
+          "இதயத்தைப் படைத்து,",
+          "சன்மார்க்கமாயிருக்க",
+          "நடக்கையைத் தழைத்து,",
+          "நீர் காட்டும் பாதையில்",
+          "உம்மைப் பின்பற்றுவந்து,",
+          "மெய் விசுவாசத்தில்",
+          "எப்போதும் நிலைக்க,",
+          "அடுத்தவரையும்",
+          "அன்பால் அரவணைக்க",
+          "இதென்னை ஏவவும்."
+        ],
+        tanglish: [
+          "Ithayavai ninaiththu",
+          "Naan endrum umakkanbu",
+          "Ithayaththaip padaiththu,",
+          "Sanmaarkkamaayirukka",
+          "Nadakkaiyaith thazaiththu,",
+          "Neer kaattum paathaiyil",
+          "Ummaip pinpatruvanthu,",
+          "Mei visuvaasaththil",
+          "Eppothum nilaikka,",
+          "Aduththavaraiyum",
+          "Anbaal aravaanaikka",
+          "Ithaennai eaavavum."
+        ]
+      },
+      {
+        id: "s185-v3",
+        type: "verse",
+        label: "Verse 3",
+        tamil: [
+          "நீர் இந்த மா உயர்ந்த",
+          "அதிசய அநேகமாய்",
+          "உம்மை எனக்குத் தந்த",
+          "படியினாலே, உண்மையாய்",
+          "அடியேன் என்னிலுள்ள",
+          "இருதயத்தையும்",
+          "யாவற்றையும், அன்புள்ள",
+          "கர்த்தாவே, உமக்கும்",
+          "தந்தேன்; ஆ, உம்மில் நானும்",
+          "இனி என்றென்றைக்கும்",
+          "இருக்கவும், நீர் தாமும்",
+          "என்னில் இருக்கவும்."
+        ],
+        tanglish: [
+          "Neer intha maa uyarntha",
+          "Athisaya anegamaay",
+          "Ummai enakku thantha",
+          "Padiyinaalae, unmaiyaay",
+          "Adiyaen ennullulla",
+          "Iruthayaththaiyum",
+          "Yaavatraiyum, anbullaa",
+          "Karththaavae, umakkum",
+          "Thanthaen; Aa, ummil naanum",
+          "Ini endrendraikkum",
+          "Irukkavum, neer thaamum",
+          "Ennil irukkavum."
+        ]
+      }
+    ]
+  },
+  {
+    id: "song_186",
+    songNumber: "186",
+    noOfStanzas: 4,
+    title: "Aathumaavae, Unnai Jora",
+    tamilTitle: "ஆத்துமாவே, உன்னை ஜோர",
+    category: "",
+    sections: [
+      {
+        id: "s186-v1",
+        type: "verse",
+        label: "Verse 1",
+        tamil: [
+          "ஆத்துமாவே, உன்னை ஜோர;",
+          "தோஷம் யாவையும் விடு;",
+          "மீட்பர் கொண்ட சேர் ஓட",
+          "நன்றாய் ஜாக்கிரதைப்படு;",
+          "கர்த்தர் உன்னை",
+          "பங்கழைக்க அழைக்கின்றார்."
+        ],
+        tanglish: [
+          "Aaththumaavae, unnai jora;",
+          "Thoasham yaavaiyum vidu;",
+          "Meetpar konda saer oda",
+          "Nandraay jaakkirathaipadu;",
+          "Karththar unnai",
+          "Pangazhaikka azhaikkintraar."
+        ]
+      },
+      {
+        id: "s186-v2",
+        type: "verse",
+        label: "Verse 2",
+        tamil: [
+          "இயேசு போஜனத்தின் மேலே",
+          "வார்த்தையாய் இருக்கிறேன்,",
+          "உம்மையே இம்மாறுவேவே,",
+          "பக்தியாய் உடகொள்வேன்,",
+          "தேவரீரே",
+          "ஜீவ அப்பமானவர்."
+        ],
+        tanglish: [
+          "Yesu boajanaththin maelae",
+          "Vaarththaiyaay irukkiraen,",
+          "Ummaiyae immaaruvaevae,",
+          "Bakthiyaay udakolvaen,",
+          "Dhevareerae",
+          "Jeeva appamaanaver."
+        ]
+      },
+      {
+        id: "s186-v3",
+        type: "verse",
+        label: "Verse 3",
+        tamil: [
+          "மாறாத நத்தித்தாலே",
+          "என்னை அன்பாய் இரட்சித்து,",
+          "அதை நீர் இரட்சித்தாலே",
+          "எனக்கென்றும் ஈந்தீர்;",
+          "இயேசு பாணம்",
+          "என்னை நித்தம் காக்கவே."
+        ],
+        tanglish: [
+          "Maaraatha naththiththaalae",
+          "Ennai anbaay iratchiththu,",
+          "Athai neer iratchiththaalae",
+          "Enakkendrum eentheer;",
+          "Yesu baanam",
+          "Ennai niththam kaakkavae."
+        ]
+      },
+      {
+        id: "s186-v4",
+        type: "verse",
+        label: "Verse 4",
+        tamil: [
+          "உம்முடைய சாவின் பலம்",
+          "மாட்சிமை மிகுத்து;",
+          "என்னிடத்திலுள்ள சாபம்",
+          "உம்மால்தானே நீங்கினது,",
+          "அப்படியே",
+          "உம்மை நான் அருந்தவே."
+        ],
+        tanglish: [
+          "Ummaiyae saavin balam",
+          "Maatchimai miguththu;",
+          "Ennidaththilulla saabam",
+          "Ummaalthaanae neenginathu,",
+          "Appadiyae",
+          "Ummai naan arunthavae."
+        ]
+      }
+    ]
+  },
+  {
+    id: "song_187",
+    songNumber: "187",
+    noOfStanzas: 7,
+    title: "Um Arul Pera, Yesuvae",
+    tamilTitle: "உம் அருள் பெற, இயேசுவே",
+    category: "",
+    sections: [
+      {
+        id: "s187-v1",
+        type: "verse",
+        label: "Verse 1",
+        tamil: [
+          "உம் அருள் பெற, இயேசுவே,",
+          "நான் பாத்திரன் அல்லேன்,",
+          "என்றாலும் தாசன் பேரிலே",
+          "கடாக்ஷம் வையுமேன்."
+        ],
+        tanglish: [
+          "Um arul pera, yesuvae,",
+          "Naan paathiran allaen,",
+          "Endraalum thaasan paerilae",
+          "Kadaaksham vaiyumeen."
+        ]
+      },
+      {
+        id: "s187-v2",
+        type: "verse",
+        label: "Verse 2",
+        tamil: [
+          "நீர் எனக்குள் பிரவேசிக்க,",
+          "நான் தக்கோன் அல்லவே;",
+          "நீர் என் பாழ் நெஞ்சை ஆசிக்க",
+          "நிமித்தம் இல்லையே."
+        ],
+        tanglish: [
+          "Neer enakkul piravaesikka,",
+          "Naan thakkon allavae;",
+          "Neer en paazh nenjai aasikka",
+          "Nimiththam illaiyae."
+        ]
+      },
+      {
+        id: "s187-v3",
+        type: "verse",
+        label: "Verse 3",
+        tamil: [
+          "ஆனாலும் வாரும் தயவாய்",
+          "மா நேச ரக்ஷகா;",
+          "என்றைக்கும் தங்கும் ஐக்கியமாய்",
+          "என் பாவ நாசகா."
+        ],
+        tanglish: [
+          "Aanaalum vaarum thayavaai",
+          "Maa naesa rakshakaa;",
+          "Endraikkum thangum aikkiyamaai",
+          "En paava naasakaa."
+        ]
+      },
+      {
+        id: "s187-v4",
+        type: "verse",
+        label: "Verse 4",
+        tamil: [
+          "நற்கருணையாம் பந்திக்கும்",
+          "அபாத்திரன் ஆயினே,ன்",
+          "நற் சீரைத் தந்து என்னையும்",
+          "கண்ணோக்கிப் பாருமேன்."
+        ],
+        tanglish: [
+          "Narkarunaiyaam panthikkum",
+          "Apaathiran aayinaen,",
+          "Nat seeraith thanthu ennaiyum",
+          "Kannokki paarumaeen."
+        ]
+      },
+      {
+        id: "s187-v5",
+        type: "verse",
+        label: "Verse 5",
+        tamil: [
+          "தெய்வீக பான போஜனம்",
+          "அன்பாக ஈகிறீர்;",
+          "மெய்யான திவ்விய அமிர்தம்",
+          "உட்கொள்ளச் செய்கிறீர்."
+        ],
+        tanglish: [
+          "Theiveega paana poajanam",
+          "Anbaaga eegirer;",
+          "Meiyaana thivviya amirtham",
+          "Utkollach seigirer."
+        ]
+      },
+      {
+        id: "s187-v6",
+        type: "verse",
+        label: "Verse 6",
+        tamil: [
+          "என் பக்தி, ஜீவன் இதினால்",
+          "நீர் விர்த்தியாக்குமேன்,",
+          "உந்தன் சரீரம் இரத்தத்தால்",
+          "சுத்தாங்கம் பண்ணுமேன்."
+        ],
+        tanglish: [
+          "En bakthi, jeevan ithinaal",
+          "Neer virthiyaakkumeen,",
+          "Unthan sareeram iraththaththaal",
+          "Suththaangam pannumeen."
+        ]
+      },
+      {
+        id: "s187-v7",
+        type: "verse",
+        label: "Verse 7",
+        tamil: [
+          "என் ஆவி, தேகம், செல்வமும்",
+          "நான் தத்தம் செய்கிறேன்,",
+          "ஆ! இயேசுவே சமஸ்தமும்",
+          "பிரதிஷ்டை செய்கிறேன்."
+        ],
+        tanglish: [
+          "En aavi, thaegam, selvamum",
+          "Naan thaththam seigiraen,",
+          "Aa! yesuvae samasthamum",
+          "Pirathishdai seigiraen."
+        ]
+      }
+    ]
+  },
+  {
+    id: "song_188",
+    songNumber: "188",
+    noOfStanzas: 4,
+    title: "Ummaalaethaan En Yesuvae",
+    tamilTitle: "உம்மாலேதான் என் இயேசுவே",
+    category: "",
+    sections: [
+      {
+        id: "s188-v1",
+        type: "verse",
+        label: "Verse 1",
+        tamil: [
+          "உம்மாலேதான் என் இயேசுவே,",
+          "இரட்சிக்கப்படுவேன்;",
+          "உம்மாலேதான் பேரின்பத்தை",
+          "அடைந்து களிப்பேன்."
+        ],
+        tanglish: [
+          "Ummaalaethaan en yesuvae,",
+          "Iratchikkappaduvaen;",
+          "Ummaalaethaan paerinbaththai",
+          "Adainthu kalippaen."
+        ]
+      },
+      {
+        id: "s188-v2",
+        type: "verse",
+        label: "Verse 2",
+        tamil: [
+          "இப்புவியில் நீர் ஈந்த",
+          "பரம் அளிக்கும்;",
+          "இனி நான் பெற்றுக்கொள்வது",
+          "அதித்த பாக்கியம்."
+        ],
+        tanglish: [
+          "Ippuviyil neer eentha",
+          "Param alikkum;",
+          "Ini naan pettrukkolvathu",
+          "Athitha paakkiyam."
+        ]
+      },
+      {
+        id: "s188-v3",
+        type: "verse",
+        label: "Verse 3",
+        tamil: [
+          "இக்கறையை அடியேனுக்கு",
+          "சித்தோஷத்தைத் தந்து;",
+          "இக்கட்டு வரும்பொழுது,",
+          "நீர் என்னைத் தேற்றுவீர்."
+        ],
+        tanglish: [
+          "Ikkaraimai adiyaenukku",
+          "Siththoashaththaith thanthu;",
+          "Ikkattu varumpoluthu,",
+          "Neer ennaith thaetruveer."
+        ]
+      },
+      {
+        id: "s188-v4",
+        type: "verse",
+        label: "Verse 4",
+        tamil: [
+          "புவியில் தங்கும் அளவும்",
+          "உம்மையே பற்றுவேன்;",
+          "எவ்வளவும் எவ்விடமும்",
+          "நான் உம்மைப் போற்றுவேன்."
+        ],
+        tanglish: [
+          "Puviyil thangum alavum",
+          "Ummaiyae pattruvaen;",
+          "Evvalavum evvidamum",
+          "Naan ummaip pottruvaen."
+        ]
+      }
+    ]
+  },
+  {
+    id: "song_189",
+    songNumber: "189",
+    noOfStanzas: 5,
+    title: "En Meetpar Yesu Kiristhuvae",
+    tamilTitle: "என் மீட்பர் இயேசு கிறிஸ்துவே",
+    category: "",
+    sections: [
+      {
+        id: "s189-v1",
+        type: "verse",
+        label: "Verse 1",
+        tamil: [
+          "என் மீட்பர் இயேசு கிறிஸ்துவே;",
+          "உம் பாதத்தண்டை நிற்கிறேன்,",
+          "நித்தமும் பிளவை நெஞ்சவே,",
+          "தன்னால் சேர்ந்துக்கொள்ளுவேன்."
+        ],
+        tanglish: [
+          "En meetpar yesu kiristhuvae;",
+          "Um paathaththandai nirkiraen,",
+          "Niththamum pilavai nenjavae,",
+          "Thannaal saerththukkolluvaen."
+        ]
+      },
+      {
+        id: "s189-v2",
+        type: "verse",
+        label: "Verse 2",
+        tamil: [
+          "என் அறிவை என் மாத்திரம்?",
+          "பரிரமாமை எல்லாம் விடுத்தி,",
+          "உம்மாலே மெய்யும் பாக்கியம்",
+          "உண்டாகும் நேச ரட்சகர்."
+        ],
+        tanglish: [
+          "En arivai en maathiram?",
+          "Pariramaamai ellaam viduththi,",
+          "Ummaalae meiyum paakkiyam",
+          "Undaagum naesa ratchagar."
+        ]
+      },
+      {
+        id: "s189-v3",
+        type: "verse",
+        label: "Verse 3",
+        tamil: [
+          "உந்தன் சரீர ரத்தமும்",
+          "மெய்யும் பொருந்து என்று அறிவேன்;",
+          "உட்கொண்டன்பாய் அருந்தவும்,",
+          "நான் பரவசமாகுவேன்."
+        ],
+        tanglish: [
+          "Unthan sareera raththamum",
+          "Meiyum porunthu endru arivaen;",
+          "Utkondanbaai arunthavum,",
+          "Naan paravasamaaguvaen."
+        ]
+      },
+      {
+        id: "s189-v4",
+        type: "verse",
+        label: "Verse 4",
+        tamil: [
+          "மறைந்து அரு ரத்தத்தை",
+          "கொள்ளொன்மையைச் சுத்தவும்;",
+          "மா திவ்விய ஜீவ ஆவியை",
+          "என் நெஞ்சில் தங்கிடும்."
+        ],
+        tanglish: [
+          "Marainthu aru raththaththai",
+          "Kollonmaiyaich suththavum;",
+          "Maa thivviya jeeva aaviyai",
+          "En nenjil thangidum."
+        ]
+      },
+      {
+        id: "s189-v5",
+        type: "verse",
+        label: "Verse 5",
+        tamil: [
+          "என் நாதா உம் சரீரம்",
+          "மேலான திவ்விய போஜனம்;",
+          "மறைந்து உந்தன் ரத்தமே",
+          "மெய்யான பான பாக்கியம்."
+        ],
+        tanglish: [
+          "En naatha um sareeram",
+          "Maelaana thivviya poajanam;",
+          "Marainthu unthan raththamae",
+          "Meiyyaana paana paakkiyam."
+        ]
+      }
+    ]
+  },
+  {
+    id: "song_190",
+    songNumber: "190",
+    noOfStanzas: 10,
+    title: "Kartharin Paaram Virundhugalai",
+    tamilTitle: "கர்த்தரின் பார விருந்துக்காய்",
+    category: "",
+    sections: [
+      {
+        id: "s190-v1",
+        type: "verse",
+        label: "Verse 1",
+        tamil: ["கர்த்தரின் பார விருந்துக்காய்,", "ஆத்துமத் தாகம் பண்ணுவீர்."],
+        tanglish: ["Kartharin paara virunthukkaai,", "Aaththumath thaagam pannuveer."]
+      },
+      {
+        id: "s190-v2",
+        type: "verse",
+        label: "Verse 2",
+        tamil: ["தூய ரத்தத்தால் இரட்சிப்போம்,", "நம்பொன் பெற்றுத் தந்துவோம்."],
+        tanglish: ["Thooya raththaththaal iratchippom,", "Nambon petrut thanthuvom."]
+      },
+      {
+        id: "s190-v3",
+        type: "verse",
+        label: "Verse 3",
+        tamil: ["தெய்வ விருந்தே, பிதாவின் கனியே,", "தம் அடிமையாகவே நன்னும் பெறுவீர்."],
+        tanglish: ["Theiva virunthae, pithavin kaniyae,", "Tham adimaiyavae nannum peruveer."]
+      },
+      {
+        id: "s190-v4",
+        type: "verse",
+        label: "Verse 4",
+        tamil: ["தாமே ஆசீர், தாமே பலனாய்", "தம்மைச் செயித்தோர்க்கு நன்னேடுவீர்."],
+        tanglish: ["Thaamae aaseer, thaamae balanaai,", "Thammaich seyiththoarkku nanneduveer."]
+      },
+      {
+        id: "s190-v5",
+        type: "verse",
+        label: "Verse 5",
+        tamil: ["பண்டிகை ஏற்பாடு லோகத்தில் எல்லாம்", "இந்த ஐக்கியத்தின் முன் துதிப்போம்."],
+        tanglish: ["Pandigai erpaadu loagaththil ellaam,", "Intha aikkiyaththin mun thuthippom."]
+      },
+      {
+        id: "s190-v6",
+        type: "verse",
+        label: "Verse 6",
+        tamil: ["சீரான கிருபை மேற்கொண்டனீர்,", "தம் பந்திக்காய் கடப்பாப்போம்."],
+        tanglish: ["Seerana kirubai maerkondaneer,", "Tham panthikkaai kadappaappom."]
+      },
+      {
+        id: "s190-v7",
+        type: "verse",
+        label: "Verse 7",
+        tamil: ["உம்மைச் சிநேகி சேர்த்து வருகின்றீர்,", "இரட்சிப்பின் பாதையுமா வழிக்கின்றீர்."],
+        tanglish: [
+          "Ummaich sinaegi saerththu varugintreer,",
+          "Iratchippin paathaiyumaa vazhikkintreer."
+        ]
+      },
+      {
+        id: "s190-v8",
+        type: "verse",
+        label: "Verse 8",
+        tamil: ["தம் பந்தையை இரட்சிக்கும் கர்த்தாவே,", "அன்பிற்கே நித்திய ஜீவன் தந்தீர்."],
+        tanglish: [
+          "Tham panthaiyai iratchikkum karththavae,",
+          "Anbirkae niththiya jeevan thantheer."
+        ]
+      },
+      {
+        id: "s190-v9",
+        type: "verse",
+        label: "Verse 9",
+        tamil: ["என்றும் ஆவியிலே கிருபை செய்வீர்;", "ஜீவ தண்ணீரில் தாகம் தீர்ப்பீர்."],
+        tanglish: ["Endrum aaviyilae kirubai seyveer;", "Jeeva thanneeril thaagam theerppeer."]
+      },
+      {
+        id: "s190-v10",
+        type: "verse",
+        label: "Verse 10",
+        tamil: ["என்றென்றும் தூய பிதாவே வணங்கி", "அன்பு ஏகனே துதிப்போம்."],
+        tanglish: ["Endrendrum thooya pithavae vanangi,", "Anbu eaganae thuthippom."]
+      }
+    ]
+  },
+  {
+    id: "song_191",
+    songNumber: "191",
+    noOfStanzas: 5,
+    title: "Saantha Yesu Swami",
+    tamilTitle: "சாந்த இயேசு சுவாமி",
+    category: "",
+    sections: [
+      {
+        id: "s191-v1",
+        type: "verse",
+        label: "Verse 1",
+        tamil: [
+          "சாந்த இயேசு சுவாமி,",
+          "வந்திந்நேரமும்,",
+          "எங்கள் நெஞ்சை உந்தன்",
+          "ஈவால் நிரப்பும்."
+        ],
+        tanglish: [
+          "Saantha Yesu swaami,",
+          "Vanthinnearamum,",
+          "Engal nenjai unthan",
+          "Eevaal nirappum."
+        ]
+      },
+      {
+        id: "s191-v2",
+        type: "verse",
+        label: "Verse 2",
+        tamil: ["வானம், பூமி, ஆழி", "உந்தன் மாட்சிமை", "ராஜீகத்தையும்", "கொள்ள ஏலாதே."],
+        tanglish: [
+          "Vaanam, poomi, aazhi",
+          "Unthan maatchimai",
+          "Raajeegaththaiyum",
+          "Kolla elaathae."
+        ]
+      },
+      {
+        id: "s191-v3",
+        type: "verse",
+        label: "Verse 3",
+        tamil: ["ஆனால், பாலர்போன்ற", "ஏழை நெஞ்சத்தார்", "மாட்சி பெற்ற உம்மை", "ஏற்கப் பெறுவார்."],
+        tanglish: [
+          "Aanaal, paalarpoantra",
+          "Ezai nenjaththaar",
+          "Maatchi pettra ummai",
+          "Erkap peruvaar."
+        ]
+      },
+      {
+        id: "s191-v4",
+        type: "verse",
+        label: "Verse 4",
+        tamil: [
+          "விண்ணின் ஆசீர்வாதம்",
+          "மண்ணில் தாசர்க்கே",
+          "ஈயும் உம்மை நாங்கள்",
+          "போற்றல் எவ்வாறே?"
+        ],
+        tanglish: [
+          "Vinnin aaseervaatham",
+          "Mannil thaasarkkae",
+          "Eeyum ummai naangal",
+          "Poatral evvaarae?"
+        ]
+      },
+      {
+        id: "s191-v5",
+        type: "verse",
+        label: "Verse 5",
+        tamil: ["அன்பு, தெய்வ பயம்,", "நல் வரங்களும்,", "சாமட்டும் நிலைக்க", "ஈயும் அருளும்."],
+        tanglish: ["Anbu, theiva payam,", "Nal varangalum,", "Saamattum nilaikka", "Eeyum arulum."]
+      }
+    ]
+  },
+  {
+    id: "song_192",
+    songNumber: "192",
+    noOfStanzas: 4,
+    title: "Thumpa Swaami, Nin Suththamaar",
+    tamilTitle: "தும்ப ஸ்வாமி, நின் சுத்தமார்",
+    category: "Picardy",
+    sections: [
+      {
+        id: "s192-v1",
+        type: "verse",
+        label: "Verse 1",
+        tamil: [
+          "தும்ப ஸ்வாமி, நின் சுத்தமார்",
+          "கைப்படுவோம்;",
+          "பொற்புடை, சிந்தை புகுந்து",
+          "போற்றோம் பொன் நாமே;",
+          "அன்புவா, அலைக்கடல் நீ,",
+          "ஆசீர்வதிப்பாய்."
+        ],
+        tanglish: [
+          "Thumpa Swaami, nin suththamaar",
+          "Kaippaduvom;",
+          "Porpudai, sinthai pugunthu",
+          "Potrom pon naamae;",
+          "Anbuvaa, alaikadal nee,",
+          "Aaseervathippaai."
+        ]
+      },
+      {
+        id: "s192-v2",
+        type: "verse",
+        label: "Verse 2",
+        tamil: [
+          "நாவினால் நல்வாசத்தி,",
+          "நாதா சிந்தை பாடுவோம்;",
+          "பாவியர் பாசமாய்,",
+          "பாற்கட, கடக்காதே",
+          "ஆவியால் திரும் எம்மை",
+          "ஆசீர்வதிப்பாய்."
+        ],
+        tanglish: [
+          "Naavinaal nalvaasathi,",
+          "Naatha sinthai paaduvom;",
+          "Paaviyar paasamaai,",
+          "Paarkada, kadakkaathae",
+          "Aaviyaal thirum emmai",
+          "Aaseervathippaai."
+        ]
+      },
+      {
+        id: "s192-v3",
+        type: "verse",
+        label: "Verse 3",
+        tamil: [
+          "நின் சிருஷ்டால் எம் மாண்பு",
+          "சித்தாக்கப்பெற்றதே;",
+          "மன்னவா, எம்மிடத்தில்",
+          "மாட்சி முகம் காட்டிட",
+          "கண்ணோக்கின் அன்பிலேன் ஆக,",
+          "கர்த்தரே ஒளிவாய்."
+        ],
+        tanglish: [
+          "Nin sirushtaal em maampu",
+          "Siththaakkappetrathe;",
+          "Mannavaa, emmidaththil",
+          "Maatchi mugam kaattida",
+          "Kannokkin anpilaen aaga,",
+          "Karththarae olivaai."
+        ]
+      },
+      {
+        id: "s192-v4",
+        type: "verse",
+        label: "Verse 4",
+        tamil: [
+          "தந்தை முகம் என்னும் காணும்",
+          "மைந்தன் இயேசு நாதரே,",
+          "விந்தையெம்மை வசித்த மாதா",
+          "மணி வேதியா,",
+          "விந்தை முகம் காட்டிடவே",
+          "விண்ணிசைந்து பணிகுவோம்."
+        ],
+        tanglish: [
+          "Thanthai mugam ennum kaanum",
+          "Mainthan Yeshu Naatharae,",
+          "Vinthaiyemmai vasiththa maatha",
+          "Mani vaethiyaa,",
+          "Vinthai mugam kaattidavae",
+          "Vinnisainthu paniguvom."
+        ]
+      }
+    ]
+  },
+  {
+    id: "song_193",
+    songNumber: "193",
+    noOfStanzas: 6,
+    title: "Entha Naathum Ennul",
+    tamilTitle: "எந்த நாதனும் என்னுள்",
+    category: "",
+    sections: [
+      {
+        id: "s193-v1",
+        type: "verse",
+        label: "Verse 1",
+        tamil: [
+          "எந்த நாதனும் என்னுள்",
+          "எண் உண்டு தொய்ந்ததே,",
+          "ஆ, ஜீவ கண்ணீரால்",
+          "தேற்றும் நம் மீட்பரே."
+        ],
+        tanglish: [
+          "Entha naathanum ennul",
+          "En undu thoynthathae,",
+          "Aa, jeeva kanneeraal",
+          "Thaetrum nam meettarae."
+        ]
+      },
+      {
+        id: "s193-v2",
+        type: "verse",
+        label: "Verse 2",
+        tamil: ["அலைந்த புவியில்", "என் பா ஆத்துமே,", "நீர் போதிக்க நலிய,", "சீராய் சிநேகமே."],
+        tanglish: [
+          "Alaintha puviyil",
+          "En paa aaththumae,",
+          "Neer poathikka naliya,",
+          "Seeraai sinaegamae."
+        ]
+      },
+      {
+        id: "s193-v3",
+        type: "verse",
+        label: "Verse 3",
+        tamil: [
+          "தெய்வீக போஜனம்",
+          "மெய் மாந்தர் தேவிர்;",
+          "மன்னோனித்தின் அமிர்தம்",
+          "என் ஜீவ ஊற்று நீர்."
+        ],
+        tanglish: [
+          "Theiveega poajanam",
+          "Mei maanthar theveer;",
+          "Mannoonithin amirtham",
+          "En jeeva ootru neer."
+        ]
+      },
+      {
+        id: "s193-v4",
+        type: "verse",
+        label: "Verse 4",
+        tamil: [
+          "உம் தூய நத்தனாய்,",
+          "எம் பாவம் போக்கவே;",
+          "உம் தூய மார்க்கத்தால்",
+          "ஆண்டவனாய் போற்றுவீர்."
+        ],
+        tanglish: [
+          "Um thooya naththanaai,",
+          "Em paavam poakkavae;",
+          "Um thooya maarkkaththaal",
+          "Aandavanaai pottruveer."
+        ]
+      },
+      {
+        id: "s193-v5",
+        type: "verse",
+        label: "Verse 5",
+        tamil: [
+          "மா சீலமாய் ஐக்கியத்தை",
+          "தந்தே உன்னுதராய்;",
+          "மேலோன பாக்கியத்தை",
+          "என்றென்றும் தாராய்."
+        ],
+        tanglish: [
+          "Maa seelamaai aikkiyaththai",
+          "Thanthae unnutharaai;",
+          "Maeloana paakkiyamththai",
+          "Endrendrum thaaraai."
+        ]
+      },
+      {
+        id: "s193-v6",
+        type: "verse",
+        label: "Verse 6",
+        tamil: ["தேவர்கள் பாதியில்", "பற்றுமொன்றுமே;", "என் ஜய நடத்தினில்", "எப்போதும் தங்குமே."],
+        tanglish: [
+          "Thevargal paathiyil",
+          "Pattumondrumae;",
+          "En jaya nadaththinil",
+          "Eppothum thangumae."
+        ]
+      }
+    ]
+  },
+  {
+    id: "song_194",
+    songNumber: "194",
+    noOfStanzas: 3,
+    title: "Thooya Paathir Seristha Mainthar",
+    tamilTitle: "தூய பாதிரி சேரித்த மைந்தர்",
+    category: "",
+    sections: [
+      {
+        id: "s194-v1",
+        type: "verse",
+        label: "Verse 1",
+        tamil: [
+          "தூய பாதிரி சேரித்த மைந்தர்",
+          "சேவை செய்யக் காத்திருந்தும்;",
+          "தூய நேசன் கேட்ட கொல்",
+          "தன்னால் சேரவும்."
+        ],
+        tanglish: [
+          "Thooya paathiri saeristha mainthar",
+          "Saevai seiyak kaaththirunthum;",
+          "Thooya naesan kaetta kol",
+          "Thannaal saeravum."
+        ]
+      },
+      {
+        id: "s194-v2",
+        type: "verse",
+        label: "Verse 2",
+        tamil: [
+          "'தூய தூய' என்று நாடி",
+          "வஞ்சனை பேசவும்,",
+          "தூய ஆத்மப் கண்டக் கர்த்தர்",
+          "என்றும் நித்தம் காக்கவும்."
+        ],
+        tanglish: [
+          "'Thooya thooya' endru naadi",
+          "Vanjanai paesavum,",
+          "Thooya aathmap kandak karththar",
+          "Endrum niththam kaakkavum."
+        ]
+      },
+      {
+        id: "s194-v3",
+        type: "verse",
+        label: "Verse 3",
+        tamil: [
+          "தூய அருளால் சொற்பக் காசுகள்",
+          "ஒளியில் நடக்கவும்;",
+          "தூய ஆவி பெற்று எல்லா",
+          "நல ஊற்றின் பொங்கவும்."
+        ],
+        tanglish: [
+          "Thooya arullaal sorppak kaasugal",
+          "Oliyil nadakkavum;",
+          "Thooya aavi pettru ellaa",
+          "Nala ootrin pongavum."
+        ]
+      }
+    ]
+  },
+  {
+    id: "song_195",
+    songNumber: "195",
+    noOfStanzas: 8,
+    title: "Nal Maeyppar Aasirukkaai",
+    tamilTitle: "நல் மேய்ப்பர் ஆசிக்காய்",
+    category: "",
+    sections: [
+      {
+        id: "s195-v1",
+        type: "verse",
+        label: "Verse 1",
+        tamil: [
+          "நல் மேய்ப்பர் ஆசிக்காய்",
+          "மதிக்க வந்து, சாலில்",
+          "அளித்த நம்மைச் ஸ்வாமி",
+          "நினைக்கும் அன்றிரவில்;"
+        ],
+        tanglish: [
+          "Nal maeyppar aasikkaai",
+          "Mathikka vanthu, saalil",
+          "Aliththa nammaich swaami",
+          "Ninaikkum andriravil;"
+        ]
+      },
+      {
+        id: "s195-v2",
+        type: "verse",
+        label: "Verse 2",
+        tamil: [
+          "அன்புள்ள கையில் அப்பத்தை",
+          "எடுத்துச் சேர்சித்து,",
+          "அதற்குப் பிறகே அதை",
+          "சீரிருக்கப் பிட்டு;"
+        ],
+        tanglish: [
+          "Anbullaa kaiyil appaththai",
+          "Eduththuch saersiththu,",
+          "Atharkup piragae athai",
+          "Seerirukkap pittu;"
+        ]
+      },
+      {
+        id: "s195-v3",
+        type: "verse",
+        label: "Verse 3",
+        tamil: [
+          "'வாங்கிப் புசியுங்கள், இது",
+          "உங்களுக்காய் உடைத்து",
+          "கொடுக்கப்பட்ட எனது",
+          "சரீரம்' என்றுரைத்து;"
+        ],
+        tanglish: [
+          "'Vaangip pusiyungal, ithu",
+          "Ungalukkaay udaiththu",
+          "Kodukkappatta enathu",
+          "Sareeram' endruraiththu;"
+        ]
+      },
+      {
+        id: "s195-v4",
+        type: "verse",
+        label: "Verse 4",
+        tamil: [
+          "பின்பு பாத்திரத்தையும்",
+          "எடுத்துச் சித்தமாக",
+          "உரைத்து: 'அனைவரும்",
+          "இதில் குடியுங்கள்;"
+        ],
+        tanglish: [
+          "Pinpu paathiraththaiyum",
+          "Eduththuch siththamaaga",
+          "Uraiththu: 'anaivarum",
+          "Ithil kudiyungal;"
+        ]
+      },
+      {
+        id: "s195-v5",
+        type: "verse",
+        label: "Verse 5",
+        tamil: [
+          "இதற்கெனக்காய் அனைவரும்",
+          "இரட்சிப்பக்கும்",
+          "சிந்துபோகும் என்னுடல்",
+          "இரத்தமிருக்கும்;"
+        ],
+        tanglish: [
+          "Itharkkenakkaay anaivarum",
+          "Iratchippakkum",
+          "Sinthupoagum ennudal",
+          "Iraththamirukkum;"
+        ]
+      },
+      {
+        id: "s195-v6",
+        type: "verse",
+        label: "Verse 6",
+        tamil: [
+          "புது உடன்படிக்கை,",
+          "இதோ, என் சொந்த ரத்தம்",
+          "இறக்கப்பட்டு போகு,",
+          "மறமே பல உண்டு;"
+        ],
+        tanglish: [
+          "Puthu udanpadikkai,",
+          "Itho, en sontha raththam",
+          "Irakkappattu poagu,",
+          "Maramae pala undu;"
+        ]
+      },
+      {
+        id: "s195-v7",
+        type: "verse",
+        label: "Verse 7",
+        tamil: [
+          "இதற்கன் அத்திறத்தை",
+          "நினைக்கச் செய்யுமே;",
+          "இதற்குச் சேர்ந்தென் பட்சத்தை",
+          "நினைப்பீர்கள்' என்றாரே."
+        ],
+        tanglish: [
+          "Itharkan aththiraththai",
+          "Ninaikkach seiyumae;",
+          "Itharkuch saernthren patchaththai",
+          "Ninaippeergale' endraarae."
+        ]
+      },
+      {
+        id: "s195-v8",
+        type: "verse",
+        label: "Verse 8",
+        tamil: [
+          "ஆ, ஸ்வாமி, உமக்கென்றைக்கும்",
+          "துதி உண்டாவதாக;",
+          "இப்படியால் அடியேன்",
+          "பிழைத்துக்கொள்ளுவேனாக."
+        ],
+        tanglish: [
+          "Aa, swaami, umakkendruikkum",
+          "Thuthi undaavathaaga;",
+          "Ippadiyaal adiyaen",
+          "Pizhaiththukkolluvaenaaga."
+        ]
+      }
+    ]
+  },
+  {
+    id: "song_196",
+    songNumber: "196",
+    noOfStanzas: 4,
+    title: "Payathodum Pakthiyodum",
+    tamilTitle: "பயத்தோடும் பக்தியோடும்",
+    category: "",
+    sections: [
+      {
+        id: "s196-v1",
+        type: "verse",
+        label: "Verse 1",
+        tamil: [
+          "பயத்தோடும் பக்தியோடும்",
+          "ஆசையுள்ளோராய்",
+          "சபையாய் அமர்ந்து நிற்க,",
+          "ஆசீர்வாதம் எல்லாம்",
+          "தெய்வ அருள் கிறிஸ்து நாதர்",
+          "ராஜனாய் விளங்குவார்."
+        ],
+        tanglish: [
+          "Payathodum pakthiyodum",
+          "Aasaiyulloraay",
+          "Sabaiyaay amarnthu nitka,",
+          "Aaseervaatham ellaam",
+          "Theiva arul Kristhu naathar",
+          "Raajanaai vilanguvaar."
+        ]
+      },
+      {
+        id: "s196-v2",
+        type: "verse",
+        label: "Verse 2",
+        tamil: [
+          "நேசிப்பவர் நேசி",
+          "முன்னே கன்னிமார் மகிழ்ந்து",
+          "பாரில் வந்து நின்றார்; இதோ,",
+          "சிறு வல்ல கிறிஸ்து",
+          "விண்ணரசான தம் தம்மால்",
+          "பக்தியாய் போற்றப்படுவார்."
+        ],
+        tanglish: [
+          "Naesippavar naesi",
+          "Munnae kannimaar magizhnthu",
+          "Paaril vanthu nindraar; Itho,",
+          "Siru valla Kristhu",
+          "Vinnarasaana tham thammaal",
+          "Pakthiyaai potrappaduvaar."
+        ]
+      },
+      {
+        id: "s196-v3",
+        type: "verse",
+        label: "Verse 3",
+        tamil: [
+          "தூத கணங்கள் முன்சென்று",
+          "பாதைச் செய்கை பண்ணினவே,",
+          "கண்ணொளியென்று அவர் தோன்றும்",
+          "ஜோதியில் மா ஜோதியாய்,",
+          "மெய்யோன் கண்கள் இருக்க என்று",
+          "சீரோடு ராஜ்யம் முடியுமே."
+        ],
+        tanglish: [
+          "Thootha kanangal munsendru",
+          "Paathaich seigai panninavae,",
+          "Kannoliyendru avar thondrum",
+          "Jothiyil maa jothiyaai,",
+          "Meiyyon kangal irukka endru",
+          "Seerodu raajyam mudiyumae."
+        ]
+      },
+      {
+        id: "s196-v4",
+        type: "verse",
+        label: "Verse 4",
+        tamil: [
+          "ஆறு அடைபடியுள்ள சீராய்,",
+          "கண்வளர் தேசிகன்",
+          "அடைபடியாய் வாதை முடி,",
+          "என்றும் ஆராய்ந்து",
+          "அல்லேலூயா, அல்லேலூயா,",
+          "கர்த்தர் என்று போற்றுவார்."
+        ],
+        tanglish: [
+          "Aaru adaipadiyulla seeraai,",
+          "Kanvalar desigan",
+          "Adaipadiyaai vaathai mudi,",
+          "Endrum aaraainthu",
+          "Alleluia, Alleluia,",
+          "Karthar endru potruvaar."
+        ]
+      }
+    ]
+  },
+  {
+    id: "song_197",
+    songNumber: "197",
+    noOfStanzas: 4,
+    title: "Pithaavae, Engalai Kalvariyil",
+    tamilTitle: "பிதாவே, எங்களை கல்வரியில்",
+    category: "",
+    sections: [
+      {
+        id: "s197-v1",
+        type: "verse",
+        label: "Verse 1",
+        tamil: [
+          "பிதாவே, எங்களை கல்வரியில்",
+          "நீர் மீட்ட அன்பை நாங்கள் உணர்ந்தே,",
+          "நிரந்தர வீணினில் உம் சமூகத்தில்",
+          "பணிந்து பேச அணைக்கவுமே,",
+          "ஒரே மெய்யான பலி படைப்போம்",
+          "இங்கே அதை உம்மொடு பாராட்டுவோம்."
+        ],
+        tanglish: [
+          "Pithaavae, engalai kalvariyil",
+          "Neer meetta anpai naangal unarnthae,",
+          "Niranthara veeninil um samugathil",
+          "Paninthu paesa anaikkavumae,",
+          "Orae meiyyaana pali padaippom",
+          "Ingae athai ummodu paaraattuvom."
+        ]
+      },
+      {
+        id: "s197-v2",
+        type: "verse",
+        label: "Verse 2",
+        tamil: [
+          "ஆ! எங்கள் குற்றம் குறை யாவையும்",
+          "பாராமல் அணைந்து நம் நேசமே,",
+          "எல்லாரையும் மங்க, செபம் குன்றியும்",
+          "உம் போருளைப் போக்கடிக்கவோ;",
+          "என்றாலும், எங்கள் பாவம் ஆக்கையை",
+          "இடையில் வைத்தோம் மீட்புப் புண்ணியமே."
+        ],
+        tanglish: [
+          "Aa! engal kutram kurai yaavaiyum",
+          "Paaraamal anainthu nam naesamae,",
+          "Ellaaraiyum manga, sepam kuntriyum",
+          "Um porulaip poakkadikkavo;",
+          "Entraalum, engal paavam aakkaiyae",
+          "Idaiyil vaiththom meetpuppunniyamae."
+        ]
+      },
+      {
+        id: "s197-v3",
+        type: "verse",
+        label: "Verse 3",
+        tamil: [
+          "இக்கணம் எங்கள் நன்புயத்தாலும்",
+          "உம் சந்நிதானம் வேண்டல் செய்வோமே;",
+          "அறிந்த நன்மை யாவும் அழியும்;",
+          "உம் பாபத்தினால் அணைத்துக் காப்போம்;",
+          "நிற்கும் ஆதரவால் விவருக்கும்;",
+          "உம்மில் அணைக்கப் பெறும் அருள் அமுதும்."
+        ],
+        tanglish: [
+          "Ikkanam engal nanpuyaththaalum",
+          "Um sannithaanam vaental seivomae;",
+          "Arintha nanmai yaavum azhiyum;",
+          "Um paapaththinaal anaiththuk kaappom;",
+          "Nirkum aatharavaal vivarikkum;",
+          "Ummil anaikkap perum arul amuthum."
+        ]
+      },
+      {
+        id: "s197-v4",
+        type: "verse",
+        label: "Verse 4",
+        tamil: [
+          "இவ்வாறு அணைக்கவே உம் கரமும்.",
+          "மா சிந்தையுள்ள மீட்பரே நீர்",
+          "போற்றுத் தரும் திவ்விய போஜனம்",
+          "கொடுப்பதும் சுமை நீக்கவீர்.",
+          "உம்மதோடு உம்மை என்றென்றைக்கு",
+          "சேர்த்துப் பற்ற துணை புவியும்."
+        ],
+        tanglish: [
+          "Ivvaaru anaikkavae um karamum.",
+          "Maa sinthaiyulla meetparae neer",
+          "Pottru tharum thivviya poajanam",
+          "Koduppathum sumai neekkaveer.",
+          "Ummathodu ummai endrendraikkae",
+          "Saerththup patra thunai puviyum."
+        ]
+      }
+    ]
+  },
+  {
+    id: "song_198",
+    songNumber: "198",
+    noOfStanzas: 5,
+    title: "Virunthaich Saerumeen",
+    tamilTitle: "விருந்தைச் சேருமீன்",
+    category: "",
+    sections: [
+      {
+        id: "s198-v1",
+        type: "verse",
+        label: "Verse 1",
+        tamil: [
+          "விருந்தைச் சேருமீன்,",
+          "அழைக்கிறார்,",
+          "ஆகாரம் பாருமீன்,",
+          "போஷிப்பிப்பார்;",
+          "தாகத்தைத் தீர்க்கவும்",
+          "இயேசுவின் மார்பிலும்",
+          "சாய்ந்திளைப்பாறவும்",
+          "வா, பாவி, வா."
+        ],
+        tanglish: [
+          "Virunthaich saerumeen,",
+          "Azhaikkiraar,",
+          "Aagaaram paarumeen,",
+          "Poashippippaar;",
+          "Thaagaththaith theerkkavum",
+          "Yesuvin maarbilum",
+          "Saainthilaippaaravum",
+          "Vaa, paavi, vaa."
+        ]
+      },
+      {
+        id: "s198-v2",
+        type: "verse",
+        label: "Verse 2",
+        tamil: [
+          "ஊற்றண்டை சேரவும்,",
+          "ஜீவனுண்டாம்;",
+          "பாடும் விசாரமும்",
+          "நீங்கும் எல்லாம்;",
+          "நம்பி வந்தோருக்கு",
+          "திருப்தி உண்டாயிற்று;",
+          "ஜீவாற்றின் அண்டைக்கு",
+          "வா, பாவி, வா."
+        ],
+        tanglish: [
+          "Ootrandai saeravum,",
+          "Jeevanundaam;",
+          "Paadum visaaramum",
+          "Neengum ellaam;",
+          "Nambi vanthoarukku",
+          "Thirupthi undaayittru;",
+          "Jeevaattrin andaikku",
+          "Vaa, paavi, vaa."
+        ]
+      },
+      {
+        id: "s198-v3",
+        type: "verse",
+        label: "Verse 3",
+        tamil: [
+          "மீட்பரின் பாதமும்",
+          "சேராவிடில்,",
+          "தோல்வியே நேரிடும்",
+          "போராட்டத்தில்;",
+          "இயேசுவே வல்லவர்,",
+          "இயேசுவே நல்லவர்,",
+          "இயேசுவே ஆண்டவர்;",
+          "வா, பாவி, வா."
+        ],
+        tanglish: [
+          "Meetparin paathamum",
+          "Saeraavidil,",
+          "Tholviyae naeridum",
+          "Poaraattaththil;",
+          "Yesuvae vallavar,",
+          "Yesuvae nallavar,",
+          "Yesuvae aandavar;",
+          "Vaa, paavi, vaa."
+        ]
+      },
+      {
+        id: "s198-v4",
+        type: "verse",
+        label: "Verse 4",
+        tamil: [
+          "மோட்சத்தின் பாதையில்",
+          "முன் செல்லுவாய்;",
+          "சிற்றின்ப வாழ்வினில்",
+          "ஏன் உழல்வாய்?",
+          "வாடாத கிரீடமும்",
+          "ஆனந்தக் களிப்பும்",
+          "பேர் வாழ்வும் பெறவும்",
+          "வா, பாவி, வா."
+        ],
+        tanglish: [
+          "Moatchaththin paathaiyil",
+          "Mun selluvaai;",
+          "Sittrinpa vaazhvinil",
+          "Aen uzhalvaai?",
+          "Vaadaatha kireedamum",
+          "Aananthak kalippum",
+          "Paer vaazhvum peravum",
+          "Vaa, paavi, vaa."
+        ]
+      },
+      {
+        id: "s198-v5",
+        type: "verse",
+        label: "Verse 5",
+        tamil: [
+          "சேருவேன் இயேசுவே",
+          "ஏற்றுக் கொள்வீர்;",
+          "பாவமும் அறவே",
+          "சுத்தம் செய்வீர்;",
+          "அப்பாலே மோட்சத்தில்",
+          "ஆனந்தக் கடலில்",
+          "மூழ்கிப் பேரின்பத்தில்",
+          "கெம்பீரிப்பேன்."
+        ],
+        tanglish: [
+          "Saeruvaen Yesuvae",
+          "Eattruk kolveer;",
+          "Paavamum aravae",
+          "Suththam seivveer;",
+          "Appaalae moatchaththil",
+          "Aananthak kadalil",
+          "Moozhgi paerinbaththil",
+          "Kempeerippaen."
+        ]
+      }
+    ]
+  },
+  {
+    id: "song_199",
+    songNumber: "199",
+    noOfStanzas: 5,
+    title: "Abishegam Petra Pithr",
+    tamilTitle: "அபிஷேகம் பெற்ற பிதா",
+    category: "",
+    sections: [
+      {
+        id: "s199-v1",
+        type: "verse",
+        label: "Verse 1",
+        tamil: [
+          "அபிஷேகம் பெற்ற பிதா",
+          "தெய்வ வார்த்தைச் சன்மார்க்கம்;",
+          "கட்டளை கொடுத்த பிதவி",
+          "'நல்ல இருப்பிடம்' என்றனர்."
+        ],
+        tanglish: [
+          "Abishegam petra pitha",
+          "Theiva vaarththaich sanmaarkkam;",
+          "Kattalai koduththa pithavi",
+          "'Nalla iruppidam' endranar."
+        ]
+      },
+      {
+        id: "s199-v2",
+        type: "verse",
+        label: "Verse 2",
+        tamil: [
+          "இயேசுவே, நீர் சொன்ன வண்ணம்",
+          "எமை அடயுங்காச",
+          "வாக்களி தந்து நல்ல எண்ணம்",
+          "அபிஷேகம் செய்யுமீர்."
+        ],
+        tanglish: [
+          "Yesuvae, neer sonna vannam",
+          "Emai adaiyungasa",
+          "Vaakkali thanthu nalla ennam",
+          "Abishegam seiyumeer."
+        ]
+      },
+      {
+        id: "s199-v3",
+        type: "verse",
+        label: "Verse 3",
+        tamil: [
+          "முடிக்கப்பட்ட விதம்",
+          "ஆவியால் நிறைந்துமாய்",
+          "வார்த்தைச் சயம் வந்து தங்கும்",
+          "அணைல் முட்டும் ஸ்வாமி."
+        ],
+        tanglish: [
+          "Mudikkappatta vitham",
+          "Aaviyaal nirainthumaai",
+          "Vaarththaich sayam vanthu thangum",
+          "Anail muttum swaami."
+        ]
+      },
+      {
+        id: "s199-v4",
+        type: "verse",
+        label: "Verse 4",
+        tamil: [
+          "வாக்களிக்கும் அறைவோ",
+          "சீர சேத்திரமாய்",
+          "உந்தன் பாதம் வந்து சேர",
+          "அயலாய்ந்தும் செய்யவும்."
+        ],
+        tanglish: [
+          "Vaakkalikkum araivo",
+          "Seera saethiramaai",
+          "Unthan paatham vanthu saera",
+          "Ayalaainthum seiyavum."
+        ]
+      },
+      {
+        id: "s199-v5",
+        type: "verse",
+        label: "Verse 5",
+        tamil: [
+          "பிதா, சுதன், தூய ஆவி",
+          "என்றும் தேவரிங்கே",
+          "தோத்திரம், புகழ்ச்சி, கீதம்",
+          "எல்லா மன்னும் உண்டாகுக!"
+        ],
+        tanglish: [
+          "Pitha, suthan, thooya aavi",
+          "Endrum thevaringae",
+          "Thoathiram, pugazhchi, geetham",
+          "Ella mannum undaaguga!"
+        ]
+      }
+    ]
+  },
+  {
+  "id": "song_200",
+  "songNumber": "200",
+  "noOfStanzas": 6,
+  "title": "Karththavae, Paranjothiyaal",
+  "tamilTitle": "கர்த்தாவே, பரஞ்சோதியால்",
+  "category": "",
+  "sections": [
+    {
+      "id": "s200-v1",
+      "type": "verse",
+      "label": "Verse 1",
+      "tamil": [
+        "கர்த்தாவே, பரஞ்சோதியால்",
+        "ஆன்மாவைப் பிரகாசிப்பீர்,",
+        "சீர் அருள் என்னும் பணியால்",
+        "உம் அன்பாய்வோரை உய்விப்பீர்."
+      ],
+      "tanglish": [
+        "Karththavae, paranjothiyaal",
+        "Aanmaavaip pirakasippeer,",
+        "Seer arul ennum paniyaal",
+        "Um anbaivōrai uyvippeer."
+      ]
+    },
+    {
+      "id": "s200-v2",
+      "type": "verse",
+      "label": "Verse 2",
+      "tamil": [
+        "உம் மந்தை சுத்தமாகவும்,",
+        "விளக்கெல்லாம் இலங்கவும்",
+        "போதகர் சபையாக்கும்",
+        "வரப்பிரசாதம் அருளும்."
+      ],
+      "tanglish": [
+        "Um manthai suththamaagavum,",
+        "Vilakkellaam ilangavum",
+        "Poathagar sabaiyaakkum",
+        "Varappirasaatham arulum."
+      ]
+    },
+    {
+      "id": "s200-v3",
+      "type": "verse",
+      "label": "Verse 3",
+      "tamil": [
+        "விண் ஆஸ்தாம் முதல் ஆவியே",
+        "மற்றோரை ஆளுயர்த்தவும்,",
+        "விசுவாசம், நம்பிக்கை, அன்பே",
+        "பிரசங்கிப்போர்க்கு ஈந்திடும்."
+      ],
+      "tanglish": [
+        "Vinn aastthaam muthal aaviyae",
+        "Matroarai aaluyarththavum,",
+        "Visuvaasam, nambikkai, anbae",
+        "Prasangippoarkku eenthidum."
+      ]
+    },
+    {
+      "id": "s200-v4",
+      "type": "verse",
+      "label": "Verse 4",
+      "tamil": [
+        "எவ்வேழையான பேர்களும்",
+        "மேலான ராஜ்யம் சேரவே,",
+        "கேட்போர்க்குக் கற்க விருப்பும்,",
+        "சற்குணம், சாந்தம் நல்குமே."
+      ],
+      "tanglish": [
+        "Evvaezaiyaana paerkalum",
+        "Maelaana raajiyam saeravae,",
+        "Kaetpoarkkuk katka viruppum,",
+        "Sarkunam, saantham nalgumae."
+      ]
+    },
+    {
+      "id": "s200-v5",
+      "type": "verse",
+      "label": "Verse 5",
+      "tamil": [
+        "நிர்ப்பந்த ஆயுள் முழுவதும்",
+        "ஒன்றாய் விழித்திருக்கவே",
+        "உம் மேய்ப்பர், மந்தை இரண்டையும்",
+        "ஆசீர்வதித்துக் காருமே."
+      ],
+      "tanglish": [
+        "Nirppantha aayul muzhuvathum",
+        "Ondraai vizhiththirukkavae",
+        "Um maeyppar, manthai irandaiyum",
+        "Aaseervathiththuk kaarumae."
+      ]
+    },
+    {
+      "id": "s200-v6",
+      "type": "verse",
+      "label": "Verse 6",
+      "tamil": [
+        "இவ்வாறு அருள் செய்திடில்",
+        "உம்மில் பிழைத்துமில் சாருவோம்;",
+        "இம்மையில் நாங்கள் வாழ்க்கையில்",
+        "சாவாமையை முன் ருசிப்போம்."
+      ],
+      "tanglish": [
+        "Ivvaaru arul seithidil",
+        "Ummil pizhaiththumil saaruvom;",
+        "Immaiyil naangal vaazhkkaiyil",
+        "Saavaamaiyai mun rusippom."
+      ]
+    }
+  ]
+}
 ];
