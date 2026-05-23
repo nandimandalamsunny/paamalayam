@@ -14791,6 +14791,304 @@ export const SEED_SONGS: Song[] = [
       }
     ]
   },
+  {
+    id: "song_112",
+    songNumber: "112",
+    title: "Maasatra Aattukkutti",
+    tamilTitle: "மாசற்ற ஆட்டுக்குட்டி",
+    category: "7, 7, 7, 7",
+    composer: "",
+    history: "",
+    crossReferences: [],
+    sections: [
+      {
+        id: "s112-v1",
+        type: "verse",
+        label: "Verse 1",
+        tanglish: [
+          "Maasatra aattukkutti,",
+          "Neer siluvaiyil thongi,",
+          "Kadan yaavum seluthi,",
+          "Iraththathaalae pongi,",
+          "Pollaappumaich saavaal ventrir",
+          "Pollaappollaathach sendrir.",
+          "Adiyaar mael irangum."
+        ],
+        tamil: [
+          "மாசற்ற ஆட்டுக்குட்டி,",
+          "நீர் சிலுவையில் தொங்கி,",
+          "கடன் யாவும் செலுத்தி,",
+          "இரத்தத்தாலே பொங்கி,",
+          "பொல்லாப்புமைச் சாவால் வென்றிர்",
+          "பொல்லாப்பொல்லாதச் சென்றீர்.",
+          "அடியார் மேல் இரங்கும்."
+        ],
+        english: [],
+        chords: []
+      },
+      {
+        id: "s112-v2",
+        type: "verse",
+        label: "Verse 2",
+        tanglish: [
+          "Maasatra aattukkutti,",
+          "Neer siluvaiyil thongi,",
+          "Kadan yaavum seluthi,",
+          "Iraththathaalae pongi,",
+          "Pollaappumaich saavaal ventrir",
+          "Pollaappollaathach sendrir.",
+          "Adiyaar mael irangum."
+        ],
+        tamil: [
+          "மாசற்ற ஆட்டுக்குட்டி,",
+          "நீர் சிலுவையில் தொங்கி,",
+          "கடன் யாவும் செலுத்தி,",
+          "இரத்தத்தாலே பொங்கி,",
+          "பொல்லாப்புமைச் சாவால் வென்றிர்",
+          "பொல்லாப்பொல்லாதச் சென்றீர்.",
+          "அடியார் மேல் இரங்கும்."
+        ],
+        english: [],
+        chords: []
+      },
+      {
+        id: "s112-v3",
+        type: "verse",
+        label: "Verse 3",
+        tanglish: [
+          "Maasatra aattukkutti,",
+          "Neer siluvaiyil thongi,",
+          "Kadan yaavum seluthi,",
+          "Iraththathaalae pongi,",
+          "Pollaappumaich saavaal ventrir",
+          "Pollaappollaathach sendrir.",
+          "Neer samaathaanam thaarum."
+        ],
+        tamil: [
+          "மாசற்ற ஆட்டுக்குட்டி,",
+          "நீர் சிலுவையில் தொங்கி,",
+          "கடன் யாவும் செலுத்தி,",
+          "இரத்தத்தாலே பொங்கி,",
+          "பொல்லாப்புமைச் சாவால் வென்றிர்",
+          "பொல்லாப்பொல்லாதச் சென்றீர்.",
+          "நீர் சமாதானம் தாரும்."
+        ],
+        english: [],
+        chords: []
+      }
+    ]
+  },
+  {
+    id: "song_113",
+    songNumber: "113",
+    title: "Ratchagaraana Yesuvae",
+    tamilTitle: "ரட்சகரான இயேசுவே",
+    category: "",
+    composer: "",
+    history: "",
+    crossReferences: [],
+    sections: [
+      {
+        id: "s113-v1",
+        type: "verse",
+        label: "Verse 1",
+        tanglish: [
+          "Ratchagaraana Yesuvae,",
+          "Engalai meetka neer",
+          "Suththa baliyaagavae",
+          "Jeevanaik koduththeer."
+        ],
+        tamil: [
+          "ரட்சகரான இயேசுவே,",
+          "எங்களை மீட்க நீர்",
+          "சுத்த பலியாகவே",
+          "ஜீவனைக் கொடுத்தீர்."
+        ],
+        english: [],
+        chords: []
+      },
+      {
+        id: "s113-v2",
+        type: "verse",
+        label: "Verse 2",
+        tanglish: [
+          "Kettōraich saerththu, paavaththai",
+          "Kattōḍē neekkiḍum;",
+          "Ippōthu paava mannippai",
+          "Ellaarkkum eenthiḍum."
+        ],
+        tamil: [
+          "கெட்டோரைச் சேர்த்து, பாவத்தை",
+          "கட்டோடே நீக்கிடும்;",
+          "இப்போது பாவ மன்னிப்பை",
+          "எல்லார்க்கும் ஈந்திடும்."
+        ],
+        english: [],
+        chords: []
+      },
+      {
+        id: "s113-v3",
+        type: "verse",
+        label: "Verse 3",
+        tanglish: [
+          "Paavaththai naasamaakkavaē",
+          "Kaal kaayppattathu;",
+          "Kettōrai yaetrukkollavaē",
+          "Kai neettappattathu."
+        ],
+        tamil: [
+          "பாவத்தை நாசமாக்கவே",
+          "கால் காய்ப்பட்டது;",
+          "கெட்டோரை ஏற்றுக்கொள்ளவே",
+          "கை நீட்டப்பட்டது."
+        ],
+        english: [],
+        chords: []
+      },
+      {
+        id: "s113-v4",
+        type: "verse",
+        label: "Verse 4",
+        tanglish: [
+          "Senneer niraintha kaayangal",
+          "Sumantha Karththanaē,",
+          "Ennaal vilaintha paavangal",
+          "Ellaam agattumē."
+        ],
+        tamil: [
+          "செந்நீர் நிறைந்த காயங்கள்",
+          "சுமந்த கர்த்தனே,",
+          "என்னால் விளைந்த பாவங்கள்",
+          "எல்லாம் அகற்றுமே."
+        ],
+        english: [],
+        chords: []
+      },
+      {
+        id: "s113-v5",
+        type: "verse",
+        label: "Verse 5",
+        tanglish: [
+          "Umathu vaakkai rusikka",
+          "Raththaththaal ennaiyum",
+          "Kazhuvi, ummaich saevikka",
+          "Kirupai alikkum."
+        ],
+        tamil: [
+          "உமது வாக்கை ருசிக்க",
+          "ரத்தத்தால் என்னையும்",
+          "கழுவி, உம்மைச் சேவிக்க",
+          "கிருபை அளிக்கும்."
+        ],
+        english: [],
+        chords: []
+      }
+    ]
+  },
+  {
+    id: "song_114",
+    songNumber: "114",
+    title: "Vaathaiyutra Meetparae",
+    tamilTitle: "வாதையுற்ற மீட்பரே",
+    category: "7, 7, 7, 7, 7, 7",
+    composer: "",
+    history: "",
+    crossReferences: [],
+    sections: [
+      {
+        id: "s114-v1",
+        type: "verse",
+        label: "Verse 1",
+        tanglish: [
+          "Vaathaiyutra Meetparae,",
+          "En adaikkalam neerae;",
+          "Naan en paavap paaraththaal",
+          "Thoynthupōyk kalanginaal,",
+          "En adaikkalam neerae,",
+          "Vaathaiyutra Meetparae."
+        ],
+        tamil: [
+          "வாதையுற்ற மீட்பரே,",
+          "என் அடைக்கலம் நீரே;",
+          "நான் என் பாவப் பாரத்தால்",
+          "தொய்ந்துபோய்க் கலங்கினால்,",
+          "என் அடைக்கலம் நீரே,",
+          "வாதையுற்ற மீட்பரே."
+        ],
+        english: [],
+        chords: []
+      },
+      {
+        id: "s114-v2",
+        type: "verse",
+        label: "Verse 2",
+        tanglish: [
+          "Niyaayath theerppil en ellaa",
+          "Punniyamum viritha;a;",
+          "Thaṟaa muyarchiyaal,",
+          "Manasthaapak kanneeraal",
+          "Kutram neengaathendraikkum",
+          "Kirupaidhaan ratchikkum."
+        ],
+        tamil: [
+          "நியாயத் தீர்ப்பில் என் எல்லா",
+          "புண்ணியமும் விறிதா;",
+          "தறா முயற்சியால்,",
+          "மனஸ்தாபக் கண்ணீரால்",
+          "குற்றம் நீங்காதென்றைக்கும்",
+          "கிருபைதான் ரட்சிக்கும்."
+        ],
+        english: [],
+        chords: []
+      },
+      {
+        id: "s114-v3",
+        type: "verse",
+        label: "Verse 3",
+        tanglish: [
+          "Ullavannam andinaen,",
+          "Anpaay ennai nōkkumaen",
+          "Thigaiththōn naan, ratchiyum;",
+          "Asuththan naan, kazhuvum",
+          "Moodum en nirvaanaththai;",
+          "Ezhaikkayum selvaththai."
+        ],
+        tamil: [
+          "உள்ளவண்ணம் அண்டினேன்,",
+          "அன்பாய் என்னை நோக்குமேன்",
+          "திகைத்தோன் நான், ratchiyum;",
+          "அசுத்தன் நான், கழுவும்",
+          "மூடும் என் நிர்வாணத்தை;",
+          "எழைக்கயும் செல்வத்தை."
+        ],
+        english: [],
+        chords: []
+      },
+      {
+        id: "s114-v4",
+        type: "verse",
+        label: "Verse 4",
+        tanglish: [
+          "Vaathaiyutra Meetparae,",
+          "En adaikkalam neerae,",
+          "En ikkattanaththilum,",
+          "Saagum tharunaththilum",
+          "En adaikkalam neerae,",
+          "Vaathaiyutra Meetparae."
+        ],
+        tamil: [
+          "வாதையுற்ற மீட்பரே,",
+          "என் அடைக்கலம் நீரே,",
+          "என் இக்கட்டணத்திலும்,",
+          "சாகும் தருணத்திலும்",
+          "என் அடைக்கலம் நீரே,",
+          "வாதையுற்ற மீட்பரே."
+        ],
+        english: [],
+        chords: []
+      }
+    ]
+  },
 
   {
     id: "song_115",
@@ -29670,6 +29968,95 @@ export const SEED_SONGS: Song[] = [
       }
     ]
   },
+  {
+    id: "song_254",
+    songNumber: "254",
+    title: "Kalippudan Kooduvōm",
+    tamilTitle: "களிப்புடன் கூடுவோம்",
+    category: "",
+    composer: "",
+    history: "",
+    crossReferences: [],
+    sections: [
+      {
+        id: "s254-v1",
+        type: "verse",
+        label: "Verse 1",
+        tanglish: [
+          "Kalippudan kooduvōm,",
+          "Karththarai naam pōtruvōm;",
+          "Avar thayai endraikkum",
+          "Thaanaroado nilaikkum."
+        ],
+        tamil: [
+          "களிப்புடன் கூடுவோம்,",
+          "கர்த்தரை நாம் போற்றுவோம்;",
+          "அவர் தயை என்றைக்கும்",
+          "தானரோடு நிலைக்கும்."
+        ],
+        english: [],
+        chords: []
+      },
+      {
+        id: "s254-v2",
+        type: "verse",
+        label: "Verse 2",
+        tanglish: [
+          "Aathi muthal avaraē",
+          "Nanmai yaavum seithaaraē;",
+          "Avar thayai endraikkum",
+          "Maanthar maelaē pozhiyum."
+        ],
+        tamil: [
+          "ஆதி முதல் அவரே",
+          "நன்மை யாவும் செய்தார்;",
+          "அவர் தயை என்றைக்கும்",
+          "மாந்தர் மேலே பொழியும்."
+        ],
+        english: [],
+        chords: []
+      },
+      {
+        id: "s254-v3",
+        type: "verse",
+        label: "Verse 3",
+        tanglish: [
+          "Inpaevaalaip pozhinthaaraē,",
+          "Niththamum vazhi kaattinaaraē;",
+          "Avar thayai endraikkum",
+          "Mannar pōlaē pozhiyum."
+        ],
+        tamil: [
+          "இன்பேவாலைப் பொழிந்தார்,",
+          "நித்தமும் வழி காட்டினார்;",
+          "அவர் தயை என்றைக்கும்",
+          "மன்னர் போலே பொழியும்."
+        ],
+        english: [],
+        chords: []
+      },
+      {
+        id: "s254-v4",
+        type: "verse",
+        label: "Verse 4",
+        tanglish: [
+          "Vaanum puvi pusthagaay",
+          "Aḍiyuppaaraē gnaanamaay;",
+          "Avar thayai endraikkum",
+          "Athaal kaanum yaarkkum."
+        ],
+        tamil: [
+          "வானும் புவி புஸ்தகாய்",
+          "அடியுப்பாரே ஞானமாய்;",
+          "அவர் தயை என்றைக்கும்",
+          "அதால் காணும் யார்க்கும்."
+        ],
+        english: [],
+        chords: []
+      }
+    ]
+  },
+
   {
     id: "song_255",
     songNumber: "255",
