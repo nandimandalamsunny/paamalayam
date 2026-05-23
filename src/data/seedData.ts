@@ -27610,20 +27610,7 @@ export const SEED_SONGS: Song[] = [
     title: "Sorpa Kaalam Pirinthalum Paar",
     tamilTitle: "சொற்பக் காலம் பிரிந்தாலும் பார்",
     category: "",
-    refrain: {
-      tamil: [
-        "கூடுவோம்... கூடுவோம்",
-        "இயேசுவோடு வாழுவோம்;",
-        "கூடுவோம்... கூடுவோம்",
-        "அது மட்டும் கர்த்தர் தாங்குவார்."
-      ],
-      tanglish: [
-        "Kooduvom... kooduvom",
-        "Yesuvodu vazhuvom;",
-        "Kooduvom... kooduvom",
-        "Athu mattum karththar thaanguvaar."
-      ]
-    },
+
     sections: [
       {
         id: "s232-v1",
