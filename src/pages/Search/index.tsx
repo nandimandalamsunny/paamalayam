@@ -209,7 +209,7 @@ export const Search: React.FC = () => {
       (sec) =>
         sec.tanglish.some((line) => line.toLowerCase().includes(lowerQuery)) ||
         sec.tamil.some((line) => line.toLowerCase().includes(lowerQuery)) ||
-        sec.english.some((line) => line.toLowerCase().includes(lowerQuery))
+        (sec.english && sec.english.some((line) => line.toLowerCase().includes(lowerQuery)))
     );
 
     return titleMatch || tamilTitleMatch || numberMatch || composerMatch || lyricsMatch;

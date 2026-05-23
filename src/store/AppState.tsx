@@ -31,6 +31,23 @@ const DEFAULT_SETTINGS: AppSettings = {
   studyMode: false,
 };
 
+const parseRoute = (): { tab: 'home' | 'search' | 'playlists' | 'favorites' | 'more'; songId: string | null } => {
+  if (typeof window === 'undefined') {
+    return { tab: 'home', songId: null };
+  }
+  const path = window.location.pathname;
+  const searchParams = new URLSearchParams(window.location.search);
+  const songId = searchParams.get('song');
+
+  let tab: 'home' | 'search' | 'playlists' | 'favorites' | 'more' = 'home';
+  if (path === '/search') tab = 'search';
+  else if (path === '/playlists') tab = 'playlists';
+  else if (path === '/favorites') tab = 'favorites';
+  else if (path === '/more') tab = 'more';
+
+  return { tab, songId };
+};
+
 export const AppStateProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   // Sync core collections with local storage
   const [songs] = useLocalStorage<Song[]>('PAAMALAI_SONGS', SEED_SONGS);
@@ -40,8 +57,8 @@ export const AppStateProvider: React.FC<{ children: React.ReactNode }> = ({ chil
   const [recentSongIds, setRecentSongIds] = useLocalStorage<string[]>('PAAMALAI_RECENT', []);
 
   // UI States (tab route and active song popup)
-  const [currentTab, setTabState] = useState<'home' | 'search' | 'playlists' | 'favorites' | 'more'>('home');
-  const [activeSongId, setActiveSongId] = useState<string | null>(null);
+  const [currentTab, setTabState] = useState<'home' | 'search' | 'playlists' | 'favorites' | 'more'>(() => parseRoute().tab);
+  const [activeSongId, setActiveSongId] = useState<string | null>(() => parseRoute().songId);
 
   // Sync index.css theme classes dynamically when settings.theme changes
   useEffect(() => {
@@ -50,11 +67,28 @@ export const AppStateProvider: React.FC<{ children: React.ReactNode }> = ({ chil
     root.classList.add(`theme-${settings.theme}`);
   }, [settings.theme]);
 
+  // Synchronize state with URL on browser back/forward navigation
+  useEffect(() => {
+    const handlePopState = () => {
+      const { tab, songId } = parseRoute();
+      setTabState(tab);
+      setActiveSongId(songId);
+    };
+
+    window.addEventListener('popstate', handlePopState);
+    return () => window.removeEventListener('popstate', handlePopState);
+  }, []);
+
   // Set active tab
   const setTab = (tab: 'home' | 'search' | 'playlists' | 'favorites' | 'more') => {
     setTabState(tab);
     // If navigating to another tab, dismiss active lyrics reader for clean UI back-stack
     setActiveSongId(null);
+
+    const newPath = tab === 'home' ? '/' : `/${tab}`;
+    if (window.location.pathname !== newPath || window.location.search !== '') {
+      window.history.pushState({ tab, songId: null }, '', newPath);
+    }
   };
 
   // Open a song to view lyrics, register under recent activity list
@@ -65,11 +99,17 @@ export const AppStateProvider: React.FC<{ children: React.ReactNode }> = ({ chil
       // Limit search history queue to top 6 items
       return [songId, ...filtered].slice(0, 6);
     });
+
+    const currentPath = window.location.pathname;
+    const newSearch = `?song=${songId}`;
+    window.history.pushState({ tab: currentTab, songId }, '', `${currentPath}${newSearch}`);
   };
 
   // Return to the active search or list screen
   const closeSong = () => {
     setActiveSongId(null);
+    const currentPath = window.location.pathname;
+    window.history.pushState({ tab: currentTab, songId: null }, '', currentPath);
   };
 
   // Toggle favorites star

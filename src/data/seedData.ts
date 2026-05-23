@@ -17729,5 +17729,318 @@ export const SEED_SONGS: Song[] = [
         chords: []
       }
     ]
+  },
+
+  {
+    id: "song_141",
+    songNumber: "141",
+    title: "Theivanbukkaaga Unnatha",
+    tamilTitle: "தெய்வன்புக்காக உன்னத",
+    category: "திரித்துவ திருநாள்",
+    composer: "Bavarian 8",
+    history: "Allein Gott in der Hoh sei Ehr",
+    crossReferences: [],
+    sections: [
+      {
+        id: "s141-v1",
+        type: "verse",
+        label: "Verse 1",
+        tanglish: [
+          "Theivanbukkaaga unnatha",
+          "Karththaavukkuppugazhchchi;",
+          "En paavakkaettai neekkina",
+          "Arul magaa thiratchi;",
+          "Meich samaathaanam, endraikkum",
+          "Maanidar mael piriyamum",
+          "Undaam irakkam petroam."
+        ],
+        tamil: [
+          "தெய்வன்புக்காக உன்னத",
+          "கர்த்தாவுக்குப் புகழ்ச்சி;",
+          "என் பாவக்கேட்டை நீக்கின",
+          "அருள் மகா திரட்சி;",
+          "மெய்ச் சமாதானம், என்றைக்கும்",
+          "மானிடர்மேல் பிரியமும்",
+          "உண்டாம் இரக்கம் பெற்றோம்."
+        ],
+        english: [],
+        chords: []
+      },
+      {
+        id: "s141-v2",
+        type: "verse",
+        label: "Verse 2",
+        tanglish: [
+          "Maaraamal aandirukkira",
+          "Magaththuvap pithaavae,",
+          "Thuthiyoadummaik kumbidap",
+          "Panigiroam karththaavae,",
+          "Alavillaap balamaay neer",
+          "Ninaiththa yaavum seigireer;",
+          "Maa baakkiyar adiyaar."
+        ],
+        tamil: [
+          "மாறாமல் ஆண்டிருக்கிற",
+          "மகத்துவப் பிதாவே,",
+          "துதியோடும்மைக் கும்பிடப்",
+          "பணிகிறோம் கர்த்தாவே,",
+          "அளவில்லாப் பலமாய் நீர்",
+          "நினைத்த யாவும் செய்கிறீர்;",
+          "மா பாக்கியர் அடியார்."
+        ],
+        english: [],
+        chords: []
+      },
+      {
+        id: "s141-v3",
+        type: "verse",
+        label: "Verse 3",
+        tanglish: [
+          "Aa, yesu theiva mainthanae;",
+          "Kadanalaich seluththi",
+          "Kettoarai meetta meetparae,",
+          "Maasatra aattukkutti",
+          "Maa karththarae, thayaabaraa,",
+          "Adiyaar saththam kaettellaa",
+          "Sabaikkum neer irangum."
+        ],
+        tamil: [
+          "ஆ, இயேசு தெய்வ மைந்தனே;",
+          "கடன்களைச் செலுத்தி",
+          "கெட்டோரை மீட்ட மீட்பரே,",
+          "மாசற்ற ஆட்டுக்குட்டி",
+          "மா கர்த்தரே, தயாபரா,",
+          "அடியார் சத்தம் கேட்டெல்லா",
+          "சபைக்கும் நீர் இரங்கும்."
+        ],
+        english: [],
+        chords: []
+      },
+      {
+        id: "s141-v4",
+        type: "verse",
+        label: "Verse 4",
+        tanglish: [
+          "Meiyyaakath thaetrum unnatha",
+          "Theivaavee neer anbaaga",
+          "Irangi, kiristhu thammuda",
+          "Saavaal piriyamaaga",
+          "Meettoaraich saaththaan kanniyil",
+          "Vizhaathae kaaththu, thunbaththil",
+          "Jeyikkappannum, aamaen."
+        ],
+        tamil: [
+          "மெய்யாகத் தேற்றும் உன்னத",
+          "தெய்வாவீ நீர் அன்பாக",
+          "இறங்கி, கிறிஸ்து தம்முட",
+          "சாவால் பிரியமாக",
+          "மீட்டோரைச் சாத்தான் கண்ணியில்",
+          "விழாதே காத்து, துன்பத்தில்",
+          "ஜெயிக்கப்பண்ணும், ஆமேன்."
+        ],
+        english: [],
+        chords: []
+      }
+    ]
+  },
+  {
+    id: "song_142",
+    songNumber: "142",
+    title: "Pithaavae, Maa Thayaabaraa",
+    tamilTitle: "பிதாவே, மா தயாபரா",
+    category: "",
+    composer: "Rivaulx",
+    history: "Father of Heaven whose love profound",
+    crossReferences: [],
+    sections: [
+      {
+        id: "s142-v1",
+        type: "verse",
+        label: "Verse 1",
+        tanglish: [
+          "Pithaavae, maa thayaabaraa,",
+          "Ratchippin aathi kaaranaa",
+          "Simmaasanap mun thaazhuvaen",
+          "Anbaaga mannippeeyumaen."
+        ],
+        tamil: [
+          "பிதாவே, மா தயாபரா,",
+          "ரட்சிப்பின் ஆதி காரணா",
+          "சிம்மாசன முன் தாழுவேன்",
+          "அன்பாக மன்னிப்பீயுமேன்."
+        ],
+        english: [],
+        chords: []
+      },
+      {
+        id: "s142-v2",
+        type: "verse",
+        label: "Verse 2",
+        tanglish: [
+          "Pithaavin vaarththai mainthanae,",
+          "Theerkkar, aasariyaar, vaenthae,",
+          "Simmaasanap mun thaazhuvaen,",
+          "Ratchaniya arul eeyumaen."
+        ],
+        tamil: [
+          "பிதாவின் வார்த்தை மைந்தனே,",
+          "தீர்க்கர், ஆசாரியர், வேந்தே,",
+          "சிம்மாசன முன் தாழுவேன்,",
+          "ரட்சணிய அருள் ஈயுமேன்."
+        ],
+        english: [],
+        chords: []
+      },
+      {
+        id: "s142-v3",
+        type: "verse",
+        label: "Verse 3",
+        tanglish: [
+          "Anaathi aavi, ummaalae",
+          "Mariththa aanma uyyumae;",
+          "Simmaasanap mun thaazhuvaen,",
+          "Theiveega jeevan eeyumaen."
+        ],
+        tamil: [
+          "அநாதி ஆவி, உம்மாலே",
+          "மரித்த ஆன்மா உய்யுமே;",
+          "சிம்மாசன முன் தாழுவேன்,",
+          "தெய்வீக ஜீவன் ஈயுமேன்."
+        ],
+        english: [],
+        chords: []
+      },
+      {
+        id: "s142-v4",
+        type: "verse",
+        label: "Verse 4",
+        tanglish: [
+          "Pithaa kumaaran aaviyae",
+          "Thiriyaegaraana swaamiyae,",
+          "Simmaasanap mun thaazhuvaen,",
+          "Anbarul jeevan eeyumaen."
+        ],
+        tamil: [
+          "பிதா குமாரன் ஆவியே",
+          "திரியேகரான ஸ்வாமியே,",
+          "சிம்மாசன முன் தாழுவேன்,",
+          "அன்பருள் ஜீவன் ஈயுமேன்."
+        ],
+        english: [],
+        chords: []
+      }
+    ]
+  },
+  {
+    id: "song_143",
+    songNumber: "143",
+    title: "Vaanamum Poomiyum",
+    tamilTitle: "வானமும் பூமியும்",
+    category: "",
+    composer: "Moscow, SS 204 (Lyie)",
+    history: "",
+    crossReferences: [],
+    sections: [
+      {
+        id: "s143-v1",
+        type: "verse",
+        label: "Verse 1",
+        tanglish: [
+          "Vaanamum poomiyum",
+          "Samastha andamum",
+          "Padaiththa neer;",
+          "Vaethaththin oliyaip",
+          "Parappi irulai",
+          "Agatri, sengoalai",
+          "Seluththuveer."
+        ],
+        tamil: [
+          "வானமும் பூமியும்",
+          "சமஸ்த அண்டமும்",
+          "படைத்த நீர்;",
+          "வேதத்தின் ஒளியைப்",
+          "பரப்பி இருளை",
+          "அகற்றி, செங்கோலை",
+          "செலுத்துவீர்."
+        ],
+        english: [],
+        chords: []
+      },
+      {
+        id: "s143-v2",
+        type: "verse",
+        label: "Verse 2",
+        tanglish: [
+          "Meetpaip undaakkavum",
+          "Maantharaik kaakkavum",
+          "Pirantha neer,",
+          "Paavaththai azhiththu",
+          "Saaththaanai mithiththu",
+          "Maantharai ratchiththu",
+          "Nadaththuveer."
+        ],
+        tamil: [
+          "மீட்பை உண்டாக்கவும்",
+          "மாந்தரைக் காக்கவும்",
+          "பிறந்த நீர்,",
+          "பாவத்தை அழித்து",
+          "சாத்தானை மிதித்து",
+          "மாந்தரை ரட்சித்து",
+          "நடத்துவீர்."
+        ],
+        english: [],
+        chords: []
+      },
+      {
+        id: "s143-v3",
+        type: "verse",
+        label: "Verse 3",
+        tanglish: [
+          "Paaviyin nenjaththai",
+          "Thiruppi jeevanaik",
+          "Kodukkum neer;",
+          "Sabaiyai muzhuthum",
+          "Thiruththith thaetravum",
+          "Aegamaaych saerkkavum",
+          "Aruluveer."
+        ],
+        tamil: [
+          "பாவியின் நெஞ்சத்தை",
+          "திருப்பி ஜீவனைக்",
+          "கொடுக்கும் நீர்",
+          "சபையை முழுதும்",
+          "திருத்தித் தேற்றவும்",
+          "ஏகமாய்ச் சேர்க்கவும்",
+          "அருளுவீர்."
+        ],
+        english: [],
+        chords: []
+      },
+      {
+        id: "s143-v4",
+        type: "verse",
+        label: "Verse 4",
+        tanglish: [
+          "Gnaanam nirainthavar",
+          "Anbu migunthavar",
+          "Thiriyaegarae;",
+          "Raajiyam, vallamai",
+          "Niththiya magimai,",
+          "Umakkae urimai",
+          "Aandavarae."
+        ],
+        tamil: [
+          "ஞானம் நிறைந்தவர்",
+          "அன்பு மிகுந்தவர்",
+          "திரியேகரே;",
+          "ராஜ்ஜியம், வல்லமை",
+          "நித்திய மகிமை,",
+          "உமக்கே உரிமை",
+          "ஆண்டவரே."
+        ],
+        english: [],
+        chords: []
+      }
+    ]
   }
 ];

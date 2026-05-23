@@ -391,7 +391,7 @@ export const LyricsDetail: React.FC = () => {
                   className={`flex flex-col text-left pl-2.5 text-app-text font-serif ${spacingClasses.container}`}
                   style={{ fontSize: `${settings.fontSize}px` }}
                 >
-                  {sec[activeLang].map((line, idx) => (
+                  {(sec[activeLang] || []).map((line, idx) => (
                     <div key={idx} className={`flex flex-col m-0 ${spacingClasses.line}`}>
                       {/* Acoustic Chords displayed overlay when enabled */}
                       {settings.studyMode &&
