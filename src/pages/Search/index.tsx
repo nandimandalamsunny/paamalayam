@@ -429,9 +429,11 @@ export const Search: React.FC = () => {
                         <span className="text-[10px] font-bold text-app-accent uppercase tracking-widest">
                           Song {song.songNumber}
                         </span>
-                        <span className="text-[9px] font-bold text-app-text/40 bg-app-primary/5 px-2 py-0.5 rounded-full select-none">
-                          {song.category}
-                        </span>
+                        {song.category && (
+                          <span className="text-[9px] font-bold text-app-text/40 bg-app-primary/5 px-2 py-0.5 rounded-full select-none">
+                            {song.category}
+                          </span>
+                        )}
                       </div>
                       <CardTitle className="text-sm font-bold mt-2.5 group-hover:text-app-primary leading-tight transition-colors">
                         {song.title}

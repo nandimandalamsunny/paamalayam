@@ -12,7 +12,10 @@ export const Favorites: React.FC = () => {
   // Categories present inside favorites
   const favoriteSongs = songs.filter((s) => favorites.includes(s.id));
   
-  const categories = ['All', ...Array.from(new Set(favoriteSongs.map((s) => s.category)))];
+  const categories = [
+    'All',
+    ...Array.from(new Set(favoriteSongs.map((s) => s.category).filter((c): c is string => typeof c === 'string' && c.trim() !== '')))
+  ];
 
   const filteredFavorites = favoriteSongs.filter((song) => {
     if (!filterCategory || filterCategory === 'All') return true;
