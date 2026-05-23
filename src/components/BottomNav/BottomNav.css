@@ -1,0 +1,134 @@
+/* BottomNav Component Local Styles */
+
+.bottom-nav-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  background-color: #FFF8F0;
+  border-top: 1px solid var(--border-app);
+  box-shadow: 0 -3px 15px rgba(91, 58, 41, 0.02);
+  padding-top: 6px;
+  padding-bottom: calc(env(safe-area-inset-bottom, 0px) + 8px);
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Ensure backdrop blur works beautifully for a glassmorphic aesthetic */
+@supports (backdrop-filter: blur(20px)) or (-webkit-backdrop-filter: blur(20px)) {
+  .bottom-nav-container {
+    background-color: rgba(255, 248, 240, 0.94);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+  }
+  
+  .theme-worship .bottom-nav-container {
+    background-color: rgba(18, 18, 18, 0.94) !important;
+  }
+}
+
+.bottom-nav-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 0 4px;
+}
+
+.bottom-nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  padding: 2px 0;
+  padding-bottom: 6px; /* slightly more bottom padding for the indicator line */
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  user-select: none;
+  position: relative;
+  -webkit-tap-highlight-color: transparent;
+  transition: transform 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.bottom-nav-item:active {
+  transform: scale(0.94);
+}
+
+/* Elegant gold horizontal underline indicator below the active tab label */
+.bottom-nav-item::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  width: 15px;
+  height: 2px;
+  background-color: transparent;
+  border-radius: 99px;
+  transition: background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.bottom-nav-item.active::after {
+  background-color: #D4A373; /* Elegant Gold */
+}
+
+.theme-worship .bottom-nav-item.active::after {
+  background-color: #E6B566; /* Worship Gold */
+}
+
+/* Core styling matching the exact primary color design rules */
+.bottom-nav-icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 24px;
+  color: #7A6A58; /* Secondary Muted Icon Color */
+  opacity: 0.85;
+  transition: color 0.2s ease, transform 0.2s ease, opacity 0.2s ease;
+}
+
+.bottom-nav-item.active .bottom-nav-icon-wrapper {
+  color: #D4A373; /* Elegant Gold */
+  opacity: 1;
+}
+
+.bottom-nav-label {
+  font-size: 11px;
+  font-weight: 600;
+  margin-top: 4px;
+  letter-spacing: -0.1px;
+  color: #7A6A58; /* Secondary Muted Icon Color */
+  opacity: 0.85;
+  transition: color 0.2s ease, font-weight 0.2s ease, opacity 0.2s ease;
+}
+
+.bottom-nav-item.active .bottom-nav-label {
+  color: #D4A373; /* Elegant Gold */
+  font-weight: 700;
+  opacity: 1;
+}
+
+/* Worship Theme (Dark Mode) Overrides */
+.theme-worship .bottom-nav-icon-wrapper {
+  color: #B8B8B8; /* Muted Dark Mode Default */
+  opacity: 0.8;
+}
+
+.theme-worship .bottom-nav-item.active .bottom-nav-icon-wrapper {
+  color: #E6B566; /* Worship Gold (Active) */
+  opacity: 1;
+}
+
+.theme-worship .bottom-nav-label {
+  color: #B8B8B8;
+  opacity: 0.8;
+}
+
+.theme-worship .bottom-nav-item.active .bottom-nav-label {
+  color: #E6B566; /* Worship Gold (Active) */
+  font-weight: 700;
+  opacity: 1;
+}

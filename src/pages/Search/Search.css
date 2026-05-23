@@ -1,0 +1,219 @@
+/* Search Screen Specific Styles */
+
+.search-results-grid {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.search-input-field {
+  box-shadow: 0 4px 15px -3px rgba(91, 58, 41, 0.05);
+}
+
+.search-category-pill {
+  transition:
+    transform 0.2s ease,
+    background-color 0.2s ease;
+}
+
+/* Horizontal Scrollable Recent Search Pills */
+.recent-search-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px; /* Precise gap between icon and text */
+  padding: 8px 16px; /* Precise vertical/horizontal padding */
+  background-color: #f3e4c8; /* Soft Champagne (exact second screenshot background color) */
+  border: none; /* No border as shown in the second screenshot */
+  border-radius: 9999px;
+  font-size: 12.5px; /* Clean sans-serif text size */
+  font-weight: 600; /* Semibold font weight */
+  color: #1a1a1a; /* Primary dark color */
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 2px 8px rgba(91, 58, 41, 0.01);
+}
+
+.recent-search-pill:hover {
+  border-color: #d4a373;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(91, 58, 41, 0.025);
+}
+
+.recent-search-pill:active {
+  transform: translateY(0);
+}
+
+/* Popular Suggestions Unified Card Container */
+.suggestions-card-container {
+  background-color: #fffdf9; /* Exact Card Color */
+  border: 1px solid #e8dfd1; /* Exact Border Color */
+  border-radius: 24px; /* Smooth rounded corners */
+  overflow: hidden;
+  box-shadow: 0 4px 20px -2px rgba(91, 58, 41, 0.02);
+  display: flex;
+  flex-direction: column;
+}
+
+.suggestion-list-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 8px; /* Taller padding matching the exact row height */
+  border-bottom: 1px solid rgba(232, 223, 209, 0.5); /* Subtle warm line divider */
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.suggestion-list-row:last-child {
+  border-bottom: none;
+}
+
+.suggestion-list-row:hover {
+  background-color: rgba(248, 244, 236, 0.45);
+}
+
+.suggestion-icon-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px; /* Perfect search circle size */
+  height: 32px;
+  border-radius: 9999px;
+  background-color: #f8f4ec; /* Perfect soft warm background matching the layout */
+  color: #a97449; /* Exact copper search icon color */
+  margin-right: 14px;
+  flex-shrink: 0;
+  transition: transform 0.2s ease;
+}
+
+.suggestion-list-row:hover .suggestion-icon-circle {
+  transform: scale(1.05);
+}
+
+.suggestion-row-text {
+  font-size: 13.5px;
+  font-weight: 600; /* Exact semibold text styling */
+  color: #1a1a1a; /* Primary dark color */
+  letter-spacing: -0.05px;
+}
+
+.suggestion-star-btn {
+  color: #d4a373; /* Exact gold/accent star outline color */
+  opacity: 0.9;
+  padding: 5px;
+  border-radius: 9999px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition:
+    opacity 0.2s ease,
+    transform 0.2s ease,
+    background-color 0.2s ease;
+}
+
+.suggestion-star-btn:hover {
+  opacity: 1;
+  transform: scale(1.15);
+  background-color: rgba(212, 163, 115, 0.08);
+}
+
+/* Browse Categories Horizontal Cards */
+.search-category-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 82px;
+  height: 104px;
+  flex-shrink: 0;
+  background-color: #fffdf9; /* Card color */
+  border: 1px solid #e8dfd1; /* Border color */
+  border-radius: 22px;
+  cursor: pointer;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 12px rgba(91, 58, 41, 0.015);
+}
+
+.search-category-card:hover {
+  border-color: #d4a373;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(91, 58, 41, 0.04);
+}
+
+.search-category-card:active {
+  transform: translateY(0);
+}
+
+.search-category-icon-wrapper {
+  color: #a97449; /* Copper gold */
+  margin-bottom: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 32px;
+  width: 32px;
+  transition: transform 0.25s ease;
+}
+
+.search-category-card:hover .search-category-icon-wrapper {
+  transform: scale(1.1);
+}
+
+.search-category-label {
+  font-size: 11px;
+  font-weight: 700;
+  color: #1a1a1a;
+  text-align: center;
+  line-height: 1.1;
+}
+
+.search-category-count {
+  font-size: 9.5px;
+  font-weight: 600;
+  color: #7a6a58;
+  text-align: center;
+  margin-top: 2px;
+}
+
+/* "Can't find a song?" Champagne Request Banner */
+.request-song-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #f9f3ea 0%, #f3e4c8 50%, #e6c7a2 100%);
+  border: 1px solid rgba(232, 223, 209, 0.4);
+  box-shadow: 0 4px 18px rgba(91, 58, 41, 0.03);
+  position: relative;
+  overflow: hidden;
+}
+
+.request-song-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 8px 16px;
+  background-color: #c08a4e; /* Deep Worship Gold button color */
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 700;
+  border-radius: 9999px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  box-shadow: 0 3px 10px rgba(192, 138, 78, 0.25);
+  white-space: nowrap;
+}
+
+.request-song-btn:hover {
+  background-color: #a97449;
+  box-shadow: 0 4px 12px rgba(169, 116, 73, 0.35);
+  transform: translateY(-1px);
+}
+
+.request-song-btn:active {
+  transform: translateY(0);
+}
