@@ -15,7 +15,7 @@ export interface Song {
   title: string;
   tamilTitle: string;
   englishTitle?: string | null;
-  category: string;
+  category?: string;
   composer?: string;
   history?: string;
   crossReferences?: string[];
