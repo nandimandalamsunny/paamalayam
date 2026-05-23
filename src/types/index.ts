@@ -4,7 +4,7 @@ export interface SongSection {
   label: string; // e.g., "Verse 1", "Chorus", "Bridge"
   tanglish: string[];
   tamil: string[];
-  english: string[] | null;
+  english?: string[] | null;
   chords?: string[]; // Chords matching the lines
 }
 
