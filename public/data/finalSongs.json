@@ -1,0 +1,29 @@
+[
+  {
+    "id": "",
+    "songNumber": "",
+    "title": "",
+    "tamilTitle": "",
+    "sections": []
+  },
+  {
+    "id": "error-missing-song-content",
+    "songNumber": null,
+    "title": "Error: Song content is undefined or missing",
+    "tamilTitle": "பிழை: பாடலின் உள்ளடக்கம் குறிப்பிடப்படவில்லை அல்லது இல்லை",
+    "sections": [
+      {
+        "type": "verse",
+        "tamil": "பாடல் உள்ளடக்கம் வழங்கப்படாததால், மாற்ற முடியாது. பாடலை வழங்கவும்.",
+        "tanglish": "Paadal ulladakkam vazhangappadathaal, maatra mudiyathu. Paadalai vazhangavum."
+      }
+    ]
+  },
+  {
+    "id": "no-song",
+    "songNumber": "0",
+    "title": "No Song Content Provided",
+    "tamilTitle": "பாடல் உள்ளடக்கமில்லை",
+    "sections": []
+  }
+]

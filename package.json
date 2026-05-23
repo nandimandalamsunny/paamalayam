@@ -7,13 +7,20 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "extract-pdf": "node scripts/extractPdf.js",
+    "format-songs": "node scripts/formatSongs.js"
   },
   "dependencies": {
     "@fontsource-variable/geist": "^5.2.9",
+    "@google/generative-ai": "^0.24.1",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "dotenv": "^17.4.2",
     "lucide-react": "^1.16.0",
+    "openai": "^6.39.0",
+    "pdf-parse": "^2.4.5",
+    "pdfjs-dist": "^5.7.284",
     "radix-ui": "^1.4.3",
     "react": "^19.2.6",
     "react-dom": "^19.2.6",
