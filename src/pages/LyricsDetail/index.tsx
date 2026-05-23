@@ -134,8 +134,10 @@ export const LyricsDetail: React.FC = () => {
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     if (element) {
-      // Offset scrolling slightly to account for sticky top bars
-      const topOffset = element.getBoundingClientRect().top + window.scrollY - 160;
+      // Offset scrolling dynamically to account for sticky top header
+      const headerEl = document.querySelector(".lyrics-sticky-header-container");
+      const headerHeight = headerEl ? headerEl.getBoundingClientRect().height : 180;
+      const topOffset = element.getBoundingClientRect().top + window.scrollY - headerHeight - 12;
       window.scrollTo({ top: topOffset, behavior: "smooth" });
     }
     setShowVerseDropdown(false);
@@ -171,138 +173,141 @@ export const LyricsDetail: React.FC = () => {
 
   return (
     <div ref={containerRef} className="lyrics-detail-view-container select-none">
-      {/* 1. Header Toolbar (Close, Previous/Next navigation, Centered title, Favorite heart) */}
-      <header className="lyrics-top-info-bar">
-        {/* Left Action: Close Song */}
-        <div className="lyrics-header-left">
-          <button onClick={closeSong} className="lyrics-back-arrow-btn" aria-label="Close Lyrics">
-            <X size={20} />
-          </button>
-        </div>
+      {/* Sticky top container that holds everything till verse and chorus selection */}
+      <div className="lyrics-sticky-header-container">
+        {/* 1. Header Toolbar (Close, Previous/Next navigation, Centered title, Favorite heart) */}
+        <header className="lyrics-top-info-bar">
+          {/* Left Action: Close Song */}
+          <div className="lyrics-header-left">
+            <button onClick={closeSong} className="lyrics-back-arrow-btn" aria-label="Close Lyrics">
+              <X size={20} />
+            </button>
+          </div>
 
-        {/* Center Actions: Prev Song, Title, Next Song */}
-        <div className="lyrics-header-center">
-          <button onClick={handlePrevSong} className="lyrics-back-arrow-btn" aria-label="Previous Song">
-            <ChevronLeft size={22} strokeWidth={2.5} />
-          </button>
-          <span className="lyrics-top-song-title font-sans">
-            Song {song.songNumber} • {song.title}
-          </span>
-          <button onClick={handleNextSong} className="lyrics-back-arrow-btn" aria-label="Next Song">
-            <ChevronRight size={22} strokeWidth={2.5} />
-          </button>
-        </div>
+          {/* Center Actions: Prev Song, Title, Next Song */}
+          <div className="lyrics-header-center">
+            <button onClick={handlePrevSong} className="lyrics-back-arrow-btn" aria-label="Previous Song">
+              <ChevronLeft size={22} strokeWidth={2.5} />
+            </button>
+            <span className="lyrics-top-song-title font-sans">
+              Song {song.songNumber} • {song.title}
+            </span>
+            <button onClick={handleNextSong} className="lyrics-back-arrow-btn" aria-label="Next Song">
+              <ChevronRight size={22} strokeWidth={2.5} />
+            </button>
+          </div>
 
-        {/* Right Action: Favorite Heart */}
-        <div className="lyrics-header-right">
-          <button
-            onClick={() => toggleFavorite(song.id)}
-            className={`lyrics-favorite-heart-btn ${isFavorite ? "active" : ""}`}
-            aria-label="Toggle Favorite"
-          >
-            <Heart
-              size={20}
-              fill={isFavorite ? "var(--accent-app)" : "none"}
-              className="transition-all"
-            />
-          </button>
-        </div>
-      </header>
+          {/* Right Action: Favorite Heart */}
+          <div className="lyrics-header-right">
+            <button
+              onClick={() => toggleFavorite(song.id)}
+              className={`lyrics-favorite-heart-btn ${isFavorite ? "active" : ""}`}
+              aria-label="Toggle Favorite"
+            >
+              <Heart
+                size={20}
+                fill={isFavorite ? "var(--accent-app)" : "none"}
+                className="transition-all"
+              />
+            </button>
+          </div>
+        </header>
 
-      {/* 2. Language Selection tabs with settings gear icon */}
-      <div className="lyrics-segmented-bar-row">
-        <div className="lyrics-segmented-bar">
-          {(
-            [
-              { id: "tamil", label: "Tamil" },
-              { id: "tanglish", label: "Tanglish" },
-              { id: "english", label: "English" }
-            ] as const
-          ).map((lang) => {
-            const isSelected = activeLang === lang.id;
-            return (
-              <button
-                key={lang.id}
-                onClick={() => setActiveLang(lang.id)}
-                className={`lyrics-segmented-pill ${isSelected ? "active" : ""}`}
-              >
-                {lang.label}
-              </button>
-            );
-          })}
-        </div>
-      </div>
-
-      {/* 3. Section dropdown anchors (Verse dropdown & Chorus dropdown sub-row) */}
-      <div className="dropdown-nav-row">
-        {/* Left Dropdown (Verses Selector) */}
-        <div className="section-dropdown-container">
-          <button
-            className="section-dropdown-trigger"
-            onClick={() => {
-              setShowVerseDropdown(!showVerseDropdown);
-              setShowChorusDropdown(false);
-            }}
-          >
-            <BookOpen size={16} className="text-app-accent" />
-            <span>Verse 1</span>
-            <span className="dropdown-chevron-arrow">▼</span>
-          </button>
-
-          {showVerseDropdown && (
-            <div className="section-dropdown-menu">
-              {verses.map((v) => (
+        {/* 2. Language Selection tabs with settings gear icon */}
+        <div className="lyrics-segmented-bar-row">
+          <div className="lyrics-segmented-bar">
+            {(
+              [
+                { id: "tamil", label: "Tamil" },
+                { id: "tanglish", label: "Tanglish" },
+                { id: "english", label: "English" }
+              ] as const
+            ).map((lang) => {
+              const isSelected = activeLang === lang.id;
+              return (
                 <button
-                  key={v.id}
-                  className="section-dropdown-item font-serif"
-                  onClick={() => scrollToSection(v.id)}
+                  key={lang.id}
+                  onClick={() => setActiveLang(lang.id)}
+                  className={`lyrics-segmented-pill ${isSelected ? "active" : ""}`}
                 >
-                  {v.label}
+                  {lang.label}
                 </button>
-              ))}
-              {verses.length === 0 && (
-                <span className="text-[10px] text-app-text/40 py-1 text-center font-sans">
-                  No verses
-                </span>
-              )}
-            </div>
-          )}
+              );
+            })}
+          </div>
         </div>
 
-        <div className="dropdown-nav-divider" />
+        {/* 3. Section dropdown anchors (Verse dropdown & Chorus dropdown sub-row) */}
+        <div className="dropdown-nav-row">
+          {/* Left Dropdown (Verses Selector) */}
+          <div className="section-dropdown-container">
+            <button
+              className="section-dropdown-trigger"
+              onClick={() => {
+                setShowVerseDropdown(!showVerseDropdown);
+                setShowChorusDropdown(false);
+              }}
+            >
+              <BookOpen size={16} className="text-app-accent" />
+              <span>Verse 1</span>
+              <span className="dropdown-chevron-arrow">▼</span>
+            </button>
 
-        {/* Right Dropdown (Chorus Selector) */}
-        <div className="section-dropdown-container">
-          <button
-            className="section-dropdown-trigger"
-            onClick={() => {
-              setShowChorusDropdown(!showChorusDropdown);
-              setShowVerseDropdown(false);
-            }}
-          >
-            <AlignLeft size={16} className="text-app-accent" />
-            <span>Chorus</span>
-            <span className="dropdown-chevron-arrow">▼</span>
-          </button>
+            {showVerseDropdown && (
+              <div className="section-dropdown-menu">
+                {verses.map((v) => (
+                  <button
+                    key={v.id}
+                    className="section-dropdown-item font-serif"
+                    onClick={() => scrollToSection(v.id)}
+                  >
+                    {v.label}
+                  </button>
+                ))}
+                {verses.length === 0 && (
+                  <span className="text-[10px] text-app-text/40 py-1 text-center font-sans">
+                    No verses
+                  </span>
+                )}
+              </div>
+            )}
+          </div>
 
-          {showChorusDropdown && (
-            <div className="section-dropdown-menu">
-              {choruses.map((c) => (
-                <button
-                  key={c.id}
-                  className="section-dropdown-item font-serif"
-                  onClick={() => scrollToSection(c.id)}
-                >
-                  {c.label}
-                </button>
-              ))}
-              {choruses.length === 0 && (
-                <span className="text-[10px] text-app-text/40 py-1 text-center font-sans">
-                  No chorus
-                </span>
-              )}
-            </div>
-          )}
+          <div className="dropdown-nav-divider" />
+
+          {/* Right Dropdown (Chorus Selector) */}
+          <div className="section-dropdown-container">
+            <button
+              className="section-dropdown-trigger"
+              onClick={() => {
+                setShowChorusDropdown(!showChorusDropdown);
+                setShowVerseDropdown(false);
+              }}
+            >
+              <AlignLeft size={16} className="text-app-accent" />
+              <span>Chorus</span>
+              <span className="dropdown-chevron-arrow">▼</span>
+            </button>
+
+            {showChorusDropdown && (
+              <div className="section-dropdown-menu">
+                {choruses.map((c) => (
+                  <button
+                    key={c.id}
+                    className="section-dropdown-item font-serif"
+                    onClick={() => scrollToSection(c.id)}
+                  >
+                    {c.label}
+                  </button>
+                ))}
+                {choruses.length === 0 && (
+                  <span className="text-[10px] text-app-text/40 py-1 text-center font-sans">
+                    No chorus
+                  </span>
+                )}
+              </div>
+            )}
+          </div>
         </div>
       </div>
 
