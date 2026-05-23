@@ -1,0 +1,475 @@
+/* Lyrics Detail Screen Specific Styles matching screenshot */
+
+.lyrics-detail-view-container {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg-app);
+  min-height: 100vh;
+  padding-bottom: 6rem;
+  animation: fadeIn 0.4s ease-out;
+  position: relative;
+  font-feature-settings: "lnum" on, "tnum" on;
+}
+
+/* 1. Sticky Top Song Header Bar */
+.lyrics-top-info-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.25rem;
+  background-color: var(--bg-app);
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  border-bottom: 1px solid rgba(232, 223, 209, 0.3);
+}
+
+.lyrics-back-arrow-btn, .lyrics-favorite-heart-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.1s;
+}
+
+.lyrics-back-arrow-btn {
+  color: var(--primary-app);
+}
+
+.lyrics-back-arrow-btn:hover {
+  background-color: rgba(91, 58, 41, 0.05);
+}
+
+.lyrics-back-arrow-btn:active {
+  transform: scale(0.95);
+}
+
+.lyrics-top-song-title {
+  font-size: 0.775rem;
+  font-weight: 700;
+  color: var(--secondary-app);
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 60%;
+  text-align: center;
+}
+
+.lyrics-favorite-heart-btn {
+  color: var(--primary-app);
+}
+
+.lyrics-favorite-heart-btn.active {
+  color: var(--accent-app);
+}
+
+.lyrics-favorite-heart-btn:hover {
+  background-color: rgba(212, 163, 115, 0.08);
+}
+
+/* 2. Language Segment Selector Row */
+.lyrics-segmented-bar-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1.25rem 0.5rem 1.25rem;
+  gap: 0.75rem;
+}
+
+.lyrics-segmented-bar {
+  display: flex;
+  flex-grow: 1;
+  background-color: rgba(91, 58, 41, 0.04);
+  border: 1px solid rgba(232, 223, 209, 0.7);
+  border-radius: 100px;
+  padding: 3px;
+  max-width: 320px;
+}
+
+.lyrics-segmented-pill {
+  flex-grow: 1;
+  flex-basis: 0;
+  text-align: center;
+  font-size: 0.725rem;
+  font-weight: 700;
+  padding: 0.55rem 0;
+  border-radius: 100px;
+  border: none;
+  background-color: transparent;
+  color: var(--text-app);
+  cursor: pointer;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  outline: none;
+}
+
+.lyrics-segmented-pill.active {
+  background-color: #B3864B; /* Exact warm gold/bronze background in screenshot */
+  color: #FFFDF9;
+  box-shadow: 0 2px 6px rgba(179, 134, 75, 0.2);
+}
+
+.lyrics-settings-gear-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  border: 1px solid rgba(232, 223, 209, 0.7);
+  background-color: var(--card-app);
+  color: var(--secondary-app);
+  cursor: pointer;
+  transition: all 0.2s;
+  flex-shrink: 0;
+}
+
+.lyrics-settings-gear-btn:hover, .lyrics-settings-gear-btn.active {
+  border-color: var(--primary-app);
+  color: var(--primary-app);
+  background-color: rgba(91, 58, 41, 0.03);
+}
+
+/* 3. Section dropdown anchors quick-nav bar */
+.dropdown-nav-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg-app);
+  padding: 0.5rem 1.25rem 0.75rem 1.25rem;
+  position: sticky;
+  top: 60px; /* Aligns right beneath top header bar */
+  z-index: 25;
+}
+
+.dropdown-nav-divider {
+  width: 1px;
+  height: 16px;
+  background-color: rgba(232, 223, 209, 0.8);
+  margin: 0 1.25rem;
+}
+
+.section-dropdown-container {
+  position: relative;
+}
+
+.section-dropdown-trigger {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-size: 0.775rem;
+  font-weight: 700;
+  color: var(--primary-app);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.2s;
+  outline: none;
+}
+
+.section-dropdown-trigger:hover {
+  opacity: 0.8;
+}
+
+.dropdown-chevron-arrow {
+  font-size: 0.55rem;
+  color: var(--secondary-app);
+  margin-left: 1px;
+}
+
+.section-dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 0.5rem;
+  background-color: var(--card-app);
+  border: 1px solid var(--border-app);
+  border-radius: 14px;
+  box-shadow: 0 8px 20px rgba(91, 58, 41, 0.08);
+  padding: 0.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  z-index: 50;
+  min-width: 110px;
+}
+
+.section-dropdown-item {
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.45rem 0.75rem;
+  border-radius: 8px;
+  text-align: center;
+  color: var(--text-app);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.2s;
+}
+
+.section-dropdown-item:hover {
+  background-color: rgba(91, 58, 41, 0.05);
+  color: var(--primary-app);
+}
+
+/* Font Adjust modal styles */
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    transform: scale(0.94);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-zoomIn {
+  animation: zoomIn 0.22s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+/* 4. MAIN LYRICS CANVAS CARD */
+.lyrics-card-wrapper {
+  padding: 0 1.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.lyrics-card {
+  width: 100%;
+  max-width: 448px;
+  background-color: var(--card-app);
+  border: 1px solid rgba(232, 223, 209, 0.4);
+  border-radius: 28px;
+  padding: 1.5rem 1.25rem 2rem 1.25rem;
+  box-shadow: 0 4px 20px rgba(91, 58, 41, 0.02);
+}
+
+.lyrics-section-block {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* Section labels with gold bullet points */
+.lyrics-section-header {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  margin-bottom: 0.75rem;
+}
+
+.lyrics-bullet-dot {
+  font-size: 1rem;
+  color: #B3864B; /* Golden dot */
+  line-height: 1;
+}
+
+.lyrics-section-label {
+  font-size: 0.825rem;
+  font-weight: 800;
+  color: #B3864B; /* Bold gold serif section label */
+  letter-spacing: 0.02em;
+}
+
+/* Text stanzas and dynamic spacing styled entirely using utility Tailwind classes */
+
+.lyrics-chord-line {
+  font-size: 0.6875rem;
+  font-weight: 700;
+  color: var(--accent-app);
+  height: 1.15rem;
+  line-height: 1.15rem;
+  letter-spacing: 0.06em;
+}
+
+.lyrics-section-block p {
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* Deluxe delimiter lines with central serif Latin cross symbol */
+.lyrics-separator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1.75rem 0.5rem;
+  width: 90%;
+  max-width: 320px;
+  align-self: center;
+}
+
+.separator-line {
+  flex-grow: 1;
+  height: 1px;
+  background-color: rgba(232, 223, 209, 0.4);
+}
+
+.separator-cross {
+  font-size: 1rem;
+  font-family: var(--font-serif);
+  color: rgba(91, 58, 41, 0.3); /* Translucent cross */
+  margin: 0 1rem;
+  line-height: 1;
+  position: relative;
+  top: -1px;
+}
+
+/* 5. FLOATING CAPSULE CONTROL TOOLBAR (RIGHT SIDE) */
+.fixed-capsule-panel-container {
+  position: fixed;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-40%);
+  z-index: 40;
+  pointer-events: none;
+}
+
+@media (min-width: 768px) {
+  .fixed-capsule-panel-container {
+    right: 24px;
+  }
+}
+
+.floating-capsule-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 253, 249, 0.95); /* Very light warm cream */
+  border: 1px solid rgba(232, 223, 209, 0.8);
+  border-radius: 100px;
+  padding: 0.875rem 0.35rem;
+  box-shadow: 0 8px 24px -4px rgba(91, 58, 41, 0.08), 0 4px 12px -2px rgba(91, 58, 41, 0.03);
+  pointer-events: auto;
+  gap: 0.875rem;
+}
+
+.theme-worship .floating-capsule-panel {
+  background-color: rgba(40, 31, 24, 0.96);
+  border-color: rgba(230, 181, 102, 0.15);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);
+}
+
+.capsule-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  width: 44px;
+  transition: transform 0.2s;
+  outline: none;
+}
+
+.capsule-btn-icon-box {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--secondary-app);
+  background-color: rgba(91, 58, 41, 0.03);
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.theme-worship .capsule-btn-icon-box {
+  color: #B8B8B8;
+  background-color: rgba(255, 255, 255, 0.03);
+}
+
+.font-aa-icon {
+  font-family: var(--font-serif);
+  font-size: 0.775rem;
+  font-weight: 700;
+  position: relative;
+  top: -1px;
+}
+
+.capsule-btn-label {
+  font-size: 0.5rem;
+  font-weight: 700;
+  color: var(--secondary-app);
+  margin-top: 3px;
+  text-align: center;
+  white-space: nowrap;
+  letter-spacing: -0.01em;
+}
+
+.theme-worship .capsule-btn-label {
+  color: #B8B8B8;
+}
+
+/* Hover and active button states inside capsule */
+.capsule-btn:hover .capsule-btn-icon-box {
+  color: var(--primary-app);
+  background-color: rgba(91, 58, 41, 0.08);
+}
+
+.theme-worship .capsule-btn:hover .capsule-btn-icon-box {
+  color: #E6B566;
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.capsule-btn.active .capsule-btn-icon-box {
+  color: #FFFDF9;
+  background-color: var(--primary-app);
+  transform: scale(1.05);
+}
+
+.theme-worship .capsule-btn.active .capsule-btn-icon-box {
+  color: #281F18;
+  background-color: #E6B566;
+  transform: scale(1.05);
+}
+
+.capsule-btn:active {
+  transform: scale(0.9);
+}
+
+/* Spacing level styles indicators inside capsule icons */
+.capsule-btn.spacing-spacious .capsule-btn-icon-box {
+  color: var(--accent-app);
+}
+
+.capsule-btn.spacing-relaxed .capsule-btn-icon-box {
+  color: var(--primary-app);
+  background-color: rgba(91, 58, 41, 0.06);
+}
+
+/* Scrolling rotation animation */
+.rotate-scroll-icon {
+  animation: spinSlow 8s linear infinite;
+}
+
+@keyframes spinSlow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Fade keyframe */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+

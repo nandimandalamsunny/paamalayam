@@ -1,0 +1,19 @@
+/* Favorites Screen Specific Styles */
+
+.favorites-list-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.empty-favorites-box {
+  transition: all 0.3s ease;
+}
+
+.favorite-item-card {
+  transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), border-color 0.2s ease;
+}
+
+.favorite-item-card:hover {
+  transform: translateY(-2px);
+}

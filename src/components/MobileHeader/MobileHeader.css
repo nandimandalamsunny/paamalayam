@@ -1,0 +1,69 @@
+/* Mobile Header Layout stylesheet */
+
+.mobile-brand-header {
+  box-shadow: 0 2px 12px -2px rgba(91, 58, 41, 0.03);
+}
+
+/* Rounded Logo Thumbnail Styling */
+.logo-thumbnail-container {
+  width: 40px;
+  height: 40px;
+  border-radius: 14px;
+  box-shadow: 0 4px 10px -2px rgba(91, 58, 41, 0.08);
+}
+
+.logo-thumbnail-image {
+  transform: scale(1.15) translateY(2px);
+  filter: contrast(1.03) brightness(0.98);
+}
+
+.theme-worship .logo-thumbnail-container {
+  border-color: rgba(230, 181, 102, 0.25) !important;
+  box-shadow: 0 4px 12px -2px rgba(0, 0, 0, 0.4);
+}
+
+/* Keyframe drawer animations */
+@keyframes slideUp {
+  from {
+    transform: translate3d(0, 100%, 0);
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-slideUp {
+  animation: slideUp 0.38s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.28s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Premium Drawer container details */
+.drawer-sheet-container {
+  box-shadow: 0 -10px 40px -6px rgba(91, 58, 41, 0.15);
+}
+
+.theme-worship .drawer-sheet-container {
+  box-shadow: 0 -10px 40px -6px rgba(0, 0, 0, 0.7);
+  background-color: #1a1a1a !important;
+  border-top-color: rgba(230, 181, 102, 0.15) !important;
+}
+
+.theme-worship .drawer-sheet-container h3 {
+  color: #E6B566 !important;
+}
+
+.theme-worship .drawer-sheet-container p {
+  color: rgba(245, 245, 245, 0.8) !important;
+}
