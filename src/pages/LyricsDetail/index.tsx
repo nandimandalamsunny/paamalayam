@@ -4,12 +4,34 @@ import { createPortal } from "react-dom";
 import { useAppState } from "../../store/AppState";
 import { Slider } from "../../components/ui/Slider/index";
 import { Dialog, DialogContent } from "../../components/ui/Dialog/index";
-import { ChevronLeft, Heart, BookOpen, AlignLeft, Pause, Sun, Moon } from "lucide-react";
+import { ChevronLeft, ChevronRight, X, Heart, BookOpen, AlignLeft, Pause, Sun, Moon } from "lucide-react";
 import "./LyricsDetail.css";
 
 export const LyricsDetail: React.FC = () => {
-  const { activeSongId, songs, favorites, toggleFavorite, closeSong, settings, updateSettings } =
+  const { activeSongId, songs, favorites, toggleFavorite, closeSong, settings, updateSettings, openSong } =
     useAppState();
+
+  const activeIndex = songs.findIndex((s) => s.id === activeSongId);
+
+  const handlePrevSong = () => {
+    if (activeIndex !== -1) {
+      const prevIndex = (activeIndex - 1 + songs.length) % songs.length;
+      const prevSong = songs[prevIndex];
+      openSong(prevSong.id);
+    }
+  };
+
+  const handleNextSong = () => {
+    if (activeIndex !== -1) {
+      const nextIndex = (activeIndex + 1) % songs.length;
+      const nextSong = songs[nextIndex];
+      openSong(nextSong.id);
+    }
+  };
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "auto" });
+  }, [activeSongId]);
 
   const [activeLang, setActiveLang] = useState<"tanglish" | "tamil" | "english">("tanglish");
   const [isScrolling, setIsScrolling] = useState(false);
@@ -149,27 +171,42 @@ export const LyricsDetail: React.FC = () => {
 
   return (
     <div ref={containerRef} className="lyrics-detail-view-container select-none">
-      {/* 1. Header Toolbar (Back button, Centered song title info, Favorite heart) */}
+      {/* 1. Header Toolbar (Close, Previous/Next navigation, Centered title, Favorite heart) */}
       <header className="lyrics-top-info-bar">
-        <button onClick={closeSong} className="lyrics-back-arrow-btn" aria-label="Back to Catalog">
-          <ChevronLeft size={22} strokeWidth={2.5} />
-        </button>
+        {/* Left Action: Close Song */}
+        <div className="lyrics-header-left">
+          <button onClick={closeSong} className="lyrics-back-arrow-btn" aria-label="Close Lyrics">
+            <X size={20} />
+          </button>
+        </div>
 
-        <span className="lyrics-top-song-title font-sans">
-          Song {song.songNumber} • {song.title}
-        </span>
+        {/* Center Actions: Prev Song, Title, Next Song */}
+        <div className="lyrics-header-center">
+          <button onClick={handlePrevSong} className="lyrics-back-arrow-btn" aria-label="Previous Song">
+            <ChevronLeft size={22} strokeWidth={2.5} />
+          </button>
+          <span className="lyrics-top-song-title font-sans">
+            Song {song.songNumber} • {song.title}
+          </span>
+          <button onClick={handleNextSong} className="lyrics-back-arrow-btn" aria-label="Next Song">
+            <ChevronRight size={22} strokeWidth={2.5} />
+          </button>
+        </div>
 
-        <button
-          onClick={() => toggleFavorite(song.id)}
-          className={`lyrics-favorite-heart-btn ${isFavorite ? "active" : ""}`}
-          aria-label="Toggle Favorite"
-        >
-          <Heart
-            size={20}
-            fill={isFavorite ? "var(--accent-app)" : "none"}
-            className="transition-all"
-          />
-        </button>
+        {/* Right Action: Favorite Heart */}
+        <div className="lyrics-header-right">
+          <button
+            onClick={() => toggleFavorite(song.id)}
+            className={`lyrics-favorite-heart-btn ${isFavorite ? "active" : ""}`}
+            aria-label="Toggle Favorite"
+          >
+            <Heart
+              size={20}
+              fill={isFavorite ? "var(--accent-app)" : "none"}
+              className="transition-all"
+            />
+          </button>
+        </div>
       </header>
 
       {/* 2. Language Selection tabs with settings gear icon */}

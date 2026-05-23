@@ -11,6 +11,7 @@ export interface SongSection {
 export interface Song {
   id: string;
   songNumber: string;
+  noOfStanzas?: string | number;
   title: string;
   tamilTitle: string;
   englishTitle?: string | null;

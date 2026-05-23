@@ -49,6 +49,29 @@
   transform: scale(0.95);
 }
 
+.lyrics-header-left {
+  display: flex;
+  justify-content: flex-start;
+  width: 40px;
+  flex-shrink: 0;
+}
+
+.lyrics-header-right {
+  display: flex;
+  justify-content: flex-end;
+  width: 40px;
+  flex-shrink: 0;
+}
+
+.lyrics-header-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  flex-grow: 1;
+  max-width: calc(100% - 100px);
+}
+
 .lyrics-top-song-title {
   font-size: 0.775rem;
   font-weight: 700;
@@ -58,7 +81,7 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  max-width: 60%;
+  max-width: 100%;
   text-align: center;
 }
 
